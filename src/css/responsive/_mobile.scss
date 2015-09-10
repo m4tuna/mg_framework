@@ -1,0 +1,82 @@
+// ==========================================================================
+// Respnsive/Mobile
+// Author: Mike Fortuna
+// ==========================================================================
+
+@media #{$mobile} {
+
+  @if $mobile-nav == true {
+    .nav-toggle {
+      display:block;
+    }
+    .nav {
+      display:none;
+      @include position(fixed, $top: $header-height, $left: 0);
+      height:$mobile-nav-height;
+      background:$mobile-nav-color;
+      padding:$mobile-nav-padding;
+      width:100%;
+      text-align: center;
+      a {
+        color:$mobile-nav-link-color;
+        font-size:$mobile-nav-fsz;
+        &:hover {
+          color:$mobile-nav-link-hover;
+        }
+      }
+      li a {
+        display:block;
+      }
+    }
+  }
+
+  @if $full-width-main-mobile == true {
+    main {
+      @for $i from 1 through $grid-columns {
+        .column-#{$i} {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  @if $full-width-header-mobile == true {
+    header {
+      @for $i from 1 through $grid-columns {
+        .column-#{$i} {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  @if $full-width-footer-mobile == true {
+    footer {
+      @for $i from 1 through $grid-columns {
+        .column-#{$i} {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  footer {
+    [class*='column-'] {
+      padding:0;
+    }
+  }
+
+
+  .hide-mobile, .hide-mobile-inline {
+    display:none;
+  }
+
+}
+
+@media #{$mobile-portrait} {
+
+}
+
+@media #{$mobile-landscape} {
+
+}

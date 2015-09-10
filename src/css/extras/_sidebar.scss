@@ -1,0 +1,43 @@
+// ==========================================================================
+// Sidebar
+// ==========================================================================
+
+@if $add-sidebar == true {
+  @if $fixed-header == true {
+    header {
+      left:$sidebar-width;
+    }
+  } @else {
+    header {
+      margin-left:$sidebar-width;
+    }
+  }
+
+  main {
+    padding-left:$sidebar-width;
+  }
+  .sidebar {
+    display:inline-block;
+    width:$sidebar-width;
+    background:$sidebar-color;
+    height:100%;
+    color:$sidebar-text-color;
+    padding:$sidebar-padding;
+    [class*='column-'] {
+      padding:$sidebar-col-padding;
+    }
+    a {
+      color:$sidebar-link-color;
+      &:hover {
+        color:$sidebar-link-hover;
+      }
+    }
+    @if $fixed-sidebar == true {
+      @include position(fixed, $top: 0, $left: 0);
+    }
+  }
+} @else {
+  .sidebar {
+    display:none;
+  }
+}

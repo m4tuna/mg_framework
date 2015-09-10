@@ -1,0 +1,96 @@
+// ==========================================================================
+// Tour - Bands in town styling
+// ==========================================================================
+
+#tour {
+  width:850px;
+  margin:0 auto;
+  table {
+    margin-top: 3em;
+    border-bottom: 2px solid $var-black !important;
+    padding-bottom:5px;
+  }
+  #bit-events {
+    .bit-header-links {
+      color: $light-purple;
+    }
+    a.bit-track-artist-header, .bit-header {
+      display: none !important;
+    }
+  }
+  th {
+    &.bit-description-links, &.bit-date, &.bit-venue,
+    &.bit-location, &.bit-artist-event-link, &.bit-tickets {
+      margin-top:4em;
+      border-top: 2px solid $var-black;
+      border-bottom: 2px solid $var-black;
+      padding:1em 0;
+    }
+    &.bit-venue, &.bit-date, &.bit-location, &.bit-tickets {
+      text-transform: uppercase !important;
+      color:$light-brown !important;
+      font-size: 10px;
+      font-weight: 400;
+    }
+  }
+  td {
+    &.bit-date a, &.bit-venue a, &.bit-location a {
+      font-size:15px !important;
+    }
+    &.bit-venue, &.bit-location {
+      color:$light-purple;
+      font-weight: bold;
+    }
+    &.bit-date {
+      color:$var-red;
+      font-family:$lato;
+      font-weight:800;
+      width: 90px;
+    }
+    .bit-uiButton {
+      background:none !important;
+      border:none !important;
+      box-shadow:none !important;
+    }
+    &.bit-rsvp {
+      font-size:12px;
+      font-weight:400;
+      text-align: center;
+      padding:0px 8px;
+      a {
+        font-family:$lato;
+        text-align: center;
+        text-transform: uppercase;
+        background:$light-purple;
+        color:$var-white !important;
+        font-family:  $lato;
+        border-radius:4px;
+        padding:5px 12px;
+        position: relative;
+        bottom: 5px;
+        &:hover {
+          background:$light-purple;
+        }
+      }
+    }
+    &.bit-tickets {
+      font-size:12px;
+      font-weight:400;
+      text-align: center;
+      padding:0px 8px;
+
+      a {
+        background:$light-brown;
+        color:$var-white;
+        font-family:  $lato;
+        border-radius:4px;
+        padding:5px 12px;
+        text-align: center;
+        text-transform: uppercase;
+        &:hover {
+          background:$lighter-brown;
+        }
+      }
+    }
+  }
+}

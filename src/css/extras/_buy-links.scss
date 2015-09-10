@@ -1,0 +1,34 @@
+// ==========================================================================
+// Buy Links
+// ==========================================================================
+
+#buy {
+	text-align:center;
+	@extend %list-reset;
+	@extend %list-inline;
+	a {
+		display:inline-block;
+		height:36px;
+		background:url('../images/buy-buttons.png');
+		&.itunes-music {
+			width:100px;
+			background-position:-0 0px;
+		}
+		&.itunes {
+			width:100px;
+			background-position:-110px 0px;
+		}
+		&.amazon {
+			width: 104px;
+			background-position: 0 -47px;
+		}
+		&.google {
+			width: 99px;
+	  	background-position: -224px 0px;
+		}
+		&.spotify {
+			width:100px;
+			background-position: -111px -48px;
+		}
+	}
+}

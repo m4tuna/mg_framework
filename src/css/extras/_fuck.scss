@@ -1,0 +1,30 @@
+//fuck you
+$child-colors: (
+  $var-black,
+  $var-blue,
+  $var-white,
+  $var-grey,
+  $var-pink,
+  $var-red,
+  $var-yellow,
+  $var-purple,
+  $var-orange,
+  $light-blue
+);
+
+section {
+  width:100%;
+  text-align: center;
+  padding:50em 0;
+  h1 {
+    color:$var-white;
+    margin-top:25em;
+  }
+  @for $i from 1 through 100 {
+    &:nth-child(#{$i}) {
+      padding:50em 0;
+      background-color:nth($child-colors, $i % length($child-colors) + 1  );
+      /* length($child-colors) */
+    }
+  }
+}

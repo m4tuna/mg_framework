@@ -1,0 +1,17 @@
+// ==========================================================================
+// Main
+// ==========================================================================
+
+body {
+  background:$body-bg;
+  @extend %font-smoothing;
+}
+
+main {
+  .row {
+    padding: $main-row-padding;
+  }
+  [class*='column-'] {
+    padding: $main-col-padding;
+  }
+}

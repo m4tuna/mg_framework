@@ -1,0 +1,29 @@
+// ==========================================================================
+// Hero
+// ==========================================================================
+
+
+.hero {
+  background:$hero-bg;
+  width:100%;
+  height:$hero-height;
+  color:$var-white;
+  &.row {
+    padding:$hero-padding;
+    @include mobile {
+      padding:70px 0;
+    }
+  }
+  h1 {
+    color:$var-white;
+  }
+  .btn-group {
+    padding-top:20px;
+    @include mobile {
+      a {
+        display:block;
+        margin-bottom:5px;
+      }
+    }
+  }
+}

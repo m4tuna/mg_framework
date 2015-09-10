@@ -1,0 +1,78 @@
+// ==========================================================================
+// Project Settings
+// Author: Mike Fortuna
+// ==========================================================================
+
+// grid settings
+$grid-columns: 12;
+$grid-max-width: 100em;
+
+// body settings
+$body-bg: $light-grey;
+$main-row-padding: 1em;
+$main-col-padding: 0;
+$wrapper-padding: 0 2em;
+$full-width-tablet-portrait: false;
+$tablet-portrait-is-mobile: true;
+
+// link colors
+$link-color: $var-white;
+$link-hover: $var-black;
+
+// nav settings
+$mobile-nav: true;
+$mobile-nav-on-tablet: true;
+$mobile-nav-height: auto;
+$mobile-nav-padding:0 0 15px;
+$mobile-nav-color: $var-black;
+$mobile-nav-fsz: 20px;
+$mobile-nav-link-color: $var-white;
+$mobile-nav-link-hover: $var-grey;
+
+// header section
+$fixed-header: true;
+$scroll-header: false;
+$full-width-header-mobile: false;
+$header-height: 75px;
+$header-col-padding: 10px;
+$header-padding: 0;
+
+// header colors
+$header-color: $var-black;
+$header-text-color: $var-white;
+$header-link-color: $var-white;
+$header-link-hover: $var-grey;
+
+// main section
+$full-width-main-mobile: true;
+
+// footer section
+$full-width-footer-mobile: false;
+$sticky-footer: true;
+$footer-height: 50px;
+$footer-padding: 1em 10%;
+$footer-col-padding: 1em;
+
+// footer colors
+$footer-color: $var-black;
+$footer-text-color: $var-white;
+$footer-link-color: $var-white;
+$footer-link-hover: $var-blue;
+
+// sidebar section
+$add-sidebar: false;
+$fixed-sidebar: true;
+$sidebar-width: 100px;
+$sidebar-col-padding: 0;
+$sidebar-padding: 10px 5px;
+
+// sidebar colors
+$sidebar-color: $var-black;
+$sidebar-text-color: $var-white;
+$sidebar-link-color: $var-white;
+$sidebar-link-hover: $var-blue;
+
+// hero options
+$hero-bg: $var-blue;
+$hero-height: 420px;
+$hero-padding: 100px 0;

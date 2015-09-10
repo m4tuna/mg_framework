@@ -1,0 +1,56 @@
+/**
+
+  @reset
+---------------------------------------------------------
+  base/_reset.scss
+--------------------------------------------------------
+
+  Credit: Normalize
+  Edited by: Halo Media
+  http://normalize.css v2.1.0 http://git.io/normalize
+
+--------------------------------------------------------- */
+
+// Apply the new box model definition & reset to no margin on anything
+* {
+  &,
+  &:before,
+  &:after{
+    @include border-box;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+
+// Apply display block to new HTML5 elements
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary,
+audio,
+canvas,
+video {
+    display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a img {
+  border:none;
+}
+
+input[type="submit"] {
+  -webkit-appearance: none;
+}

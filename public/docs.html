@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>MikeGrid 0.1 Documentation</title>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="file://localhost/Users/michaelfortuna/Apps/mike-grid/src/css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="shortcut icon" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/favicon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/favicon.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/favicon.png">
+
+  <!-- Scripts and styles for syntax highlighting -->
+  <link href="http://alexgorbatchev.com/pub/sh/current/styles/shCore.css" rel="stylesheet" type="text/css" />
+  <link href="http://alexgorbatchev.com/pub/sh/current/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
+
+  <script src="http://alexgorbatchev.com/pub/sh/current/scripts/shCore.js" type="text/javascript"></script>
+  <script src="http://alexgorbatchev.com/pub/sh/current/scripts/shAutoloader.js" type="text/javascript"></script>
+  <script src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushJScript.js" type="text/javascript"></script>
+  <script src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushXml.js" type="text/javascript"></script>
+  <script src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushCss.js" type="text/javascript"></script>
+</head>
+<body>
+
+  <header>
+    <div class="wrapper">
+      <div class="column-8">
+        <h1><i class="fa fa-pencil"></i> mike_grid</h1>
+      </div>
+      <div class="column-4 right">
+        <a href="#" class="nav-toggle"><i class="fa fa-align-justify"></i></a>
+        <ul class="nav">
+          <li><a href="">base</a></li>
+          <li><a href="">config</a></li>
+          <li><a href="">modules</a></li>
+          <li><a href="">responsive</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <div class="sidebar">
+    <h1><a href="#"><i class="fa fa-pencil"></i>m_g</a></h1>
+    <ul>
+      <li><a href="">base</a></li>
+      <li><a href="">config</a></li>
+      <li><a href="">modules</a></li>
+      <li><a href="">responsive</a></li>
+    </ul>
+  </div>
+
+  <main>
+    <div class="wrapper">
+
+      <div class="row">
+        <div class="column-12">
+          <h1>documentation</h1>
+          <table class="settings">
+            <thead>
+              <tr>
+                <th>Setting</th>
+                <th>Usage</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>$grid-columns</td>
+                <td>set the number of columns in your grid</td>
+              </tr>
+              <tr>
+                <td>$body-bg</td>
+                <td>set color of body. can leave blank and specify elsewhere.</td>
+              </tr>
+              <tr>
+                <td>$full-width-header-mobile</td>
+                <td>sets all columns within header element to 100% when true. </td>
+              </tr>
+              <tr>
+                <td>$full-width-main-mobile</td>
+                <td>sets all columns within main element to 100% when true. </td>
+              </tr>
+              <tr>
+                <td>$full-width-tablet-portrait</td>
+                <td>sets all columns to 100% on tablet portrait view when true. </td>
+              </tr>
+              <tr>
+                <td>$full-width-footer-mobile</td>
+                <td>sets all columns within footer element to 100% when true. </td>
+              </tr>
+              <tr>
+                <td>$mobile-nav</td>
+                <td>adds in a mobile nav when set to true. </td>
+              </tr>
+              <tr>
+                <td>$fixed-header</td>
+                <td>sets the header to fixed. properly spaces main element below according to the height of the header.</td>
+              </tr>
+              <tr>
+                <td>$scroll-header</td>
+                <td>changing header on window scroll.</td>
+              </tr>
+              <tr>
+                <td>$header-height</td>
+                <td>set the height of the header.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+
+      </div>
+      <div class="row">
+        <h1>modules</h1>
+        <p>header</p>
+        <p>footer</p>
+        <p>sidebar</p>
+        <p>buy links</p>
+        <p>social links</p>
+      </div>
+
+      <div class="row">
+        <h1>mixins</h1>
+      </div>
+
+      <div class="row">
+        <h1>mixins</h1>
+      </div>
+
+
+    <div class="row">
+      <h1>tables</h1>
+      <table class="demo">
+        <thead>
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Job Title</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>James</td>
+            <td>Matman</td>
+            <td>Chief Sandwich Eater</td>
+          </tr>
+          <tr>
+            <td>The</td>
+            <td>Tick</td>
+            <td>Crimefighter Sorta</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    </div>
+  </main>
+
+
+
+  <footer>
+    <p>footer</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script>
+    $('.nav-toggle').click(function() {
+      $('.nav').slideToggle();
+    });
+  </script>
+  </body>
+</html>

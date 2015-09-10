@@ -1,0 +1,38 @@
+// ==========================================================================
+// Footer
+// ==========================================================================
+
+footer {
+  padding:$footer-padding;
+  clear:both;
+  background:$footer-color;
+  color:$footer-text-color;
+  height:$footer-height;
+  a {
+    color:$footer-link-color;
+    &:hover {
+      color:$footer-link-hover;
+    }
+  }
+  .wrapper {
+    margin: 0 auto;
+  }
+  [class*='column-'] {
+    padding:$footer-col-padding;
+  }
+}
+
+@if $sticky-footer == true {
+  html, body {
+    height: 100%;
+  }
+  main {
+    min-height: 100%;
+    margin-bottom:-$footer-height;
+    &:after {
+      content: "";
+      display: block;
+      height: $footer-height;
+    }
+  }
+}

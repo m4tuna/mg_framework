@@ -1,0 +1,94 @@
+// ==========================================================================
+// Project Settings
+// Author: Mike Fortuna
+// ==========================================================================
+
+// dev mode
+$development: true !default;
+
+// grid settings
+$grid-columns: 12;
+$grid-max-width: 100em;
+
+// body settings
+$body-bg: $light-grey;
+$wrapper-padding: 0 2em;
+$full-width-tablet-portrait: false !default;
+$tablet-portrait-is-mobile: true !default;
+
+// link colors
+$link-color: $var-white;
+$link-hover: $var-black;
+
+// nav settings
+$nav-fsz: 15px;
+$nav-margin: 15px 0;
+$mobile-nav: true !default;
+$mobile-nav-on-tablet: true !default;
+$mobile-nav-height: auto;
+$mobile-nav-padding:0 0 15px;
+$mobile-nav-color: $halo-red;
+$mobile-nav-fsz: 20px;
+$mobile-nav-link-color: $var-white;
+$mobile-nav-link-hover: $var-yellow;
+
+// header section
+$add-header: true !default;
+$fixed-header: true !default;
+$scroll-header: false !default;
+$full-width-header-mobile: false !default;
+$header-height: 75px;
+$header-col-padding: 10px;
+$header-padding: 0;
+
+// header colors
+$header-color: $halo-red;
+$header-text-color: $var-white;
+$header-link-color: $var-white;
+$header-link-hover: $var-yellow;
+
+// main section
+$full-width-main-mobile: true !default;
+$main-row-padding: 1em;
+$main-col-padding: 0;
+
+// footer section
+$full-width-footer-mobile: false !default;
+$sticky-footer: true !default; // fixes footer on pages with less content
+$footer-height: 50px;
+$footer-padding: 1em 10%;
+$footer-col-padding: 1em;
+$footer-fsz: 10px;
+$center-footer: true !default; // left when false
+
+// footer colors
+$footer-color: $halo-red;
+$footer-text-color: $var-white;
+$footer-link-color: $var-white;
+$footer-link-hover: $var-blue;
+
+// sidebar section
+$add-sidebar: false !default;
+$fixed-sidebar: true !default;
+$sidebar-width: 100px;
+$sidebar-col-padding: 0;
+$sidebar-padding: 10px 5px;
+
+// sidebar colors
+$sidebar-color: $halo-red;
+$sidebar-text-color: $var-white;
+$sidebar-link-color: $var-white;
+$sidebar-link-hover: $var-blue;
+
+
+// social icon settings
+$social-padding: 5px 10px;
+$social-fsz: 40px;
+$social-bg: $var-white;
+$social-bg-hover: $var-black;
+$social-text-color: $var-black;
+$social-text-hover: $var-white;
+
+// hero options
+$hero-height: 420px;
+$hero-padding: 100px 0;

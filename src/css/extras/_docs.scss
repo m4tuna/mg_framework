@@ -1,0 +1,92 @@
+// ==========================================================================
+// Theme
+// M_G Docs Page
+// ==========================================================================
+
+body {
+  font-family:$default-font;
+  /* @include full-size-bg('../../public/images/doc.jpg'); */
+}
+
+h1, h3 {
+  font-family:$default-font;
+}
+
+p {
+  font-family:$default-font;
+}
+
+a {
+  color:$var-blue;
+  font-family:$default-font;
+}
+
+header {
+  a {
+    display:inline-block;
+    margin-top:1em;
+    font-size:$fsz-base;
+    font-family:$open-sans;
+  }
+}
+
+main {
+  width:100%;
+  color:$var-black;
+  .wrapper {
+    margin: 1.5em auto 0;
+    padding: 5em 10%;
+    p {
+      margin:1em auto;
+    }
+  }
+  .column-5 {
+    clear: both;
+    display: block;
+    float: left;
+    margin: 40px 0 0;
+  }
+  [class*='column-'] {
+    @extend %reset;
+  }
+  @include mobile {
+    padding:0 1em;
+  }
+}
+
+.triangle {
+  @include css-triangle(50px, $var-blue, bottom);
+}
+
+.content [class*='column-'] {
+  @extend %center;
+  background:$light-purple;
+  border: 1px solid $var-white;
+  color:$var-grey;
+  padding:30px 0;
+  .wrapper {
+    margin: 0 auto;
+  }
+  a {
+    color:$var-grey;
+  }
+  [class*='column-'] input {
+    @include placeholder {
+      color: $var-grey;
+    }
+  }
+}
+
+.syntaxhighlighter {
+  z-index:-1;
+}
+
+quote {
+  margin:15px 0;
+  width:100%;
+  background:$light-purple;
+  display:block;
+  padding:1em;
+  font-family:$source;
+  color:$var-black;
+}
