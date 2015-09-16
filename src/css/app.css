@@ -237,12 +237,13 @@ body {
     color: #fff; }
     body a:hover {
       color: #000; }
-  body img {
-    width: auto;
-    max-width: 100%;
-    height: auto; }
-    body img.img-fluid {
-      width: 100%; }
+
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto; }
+  img.img-fluid {
+    width: 100%; }
 
 header {
   width: 100%;
@@ -307,6 +308,36 @@ main {
     padding: 1em; }
   main [class*='column-'] {
     padding: 0; }
+
+section {
+  font-family: 14px;
+  font-weight: "normal";
+  font-size: 14px;
+  color: #fff;
+  background: #000;
+  background-image: url("");
+  background-attachment: "";
+  background-position: "";
+  background-size: ""; }
+  section a {
+    color: #fff; }
+    section a:hover {
+      color: #a6a6a6; }
+
+article {
+  font-family: 14px;
+  font-weight: "normal";
+  font-size: 14px;
+  color: #fff;
+  background: #000;
+  background-image: url("");
+  background-attachment: "";
+  background-position: "";
+  background-size: ""; }
+  article a {
+    color: #fff; }
+    article a:hover {
+      color: #a6a6a6; }
 
 footer {
   padding: 1em 10%;
