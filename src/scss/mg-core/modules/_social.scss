@@ -9,16 +9,13 @@
     top: 8px;
   }
   a {
-    background:$var-white;
-    color:$var-black;
-    padding:5px 10px;
-    border-radius:2px;
-    @include transition-all(0.5s);
+    background:$social-bg-color;
+    color:$social-text-color;
+    padding:$social-link-padding;
+    border-radius:$social-border-radius;
+    @include transition-all($social-hover-time);
     &.tw, &.yt {
-      padding:5px 9px;
-    }
-    &:hover {
-      opacity:0.8;
+      padding:$social-extras-padding;
     }
   }
 }

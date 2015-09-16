@@ -40,3 +40,33 @@ $sidebar-bg-color: $var-black;
 $sidebar-text-color: $var-white;
 $sidebar-link-color: $var-white;
 $sidebar-link-hover: $var-blue;
+
+//-buttons
+$btn-text-color: $var-black;
+$btn-border-size: 2px;
+$btn-border-style: solid;
+$btn-border-color: transparent;
+
+//-buttons mapping
+$btn-colors: (
+  btn-black: $var-black,
+  btn-blue: $var-blue,
+  btn-white: $var-white,
+  btn-grey: $var-grey,
+  btn-pink: $var-pink,
+  btn-red: $var-red,
+  btn-yellow: $var-yellow,
+  btn-purple: $var-purple,
+  btn-orange: $var-orange,
+  btn-light-blue: $light-blue
+);
+
+@each $btn-color, $color in $btn-colors {
+  .btn.#{$btn-color} {
+    background-color:#{$color};
+  }
+}
+
+//-social icons
+$social-bg-color: $var-white;
+$social-text-color: $var-black;

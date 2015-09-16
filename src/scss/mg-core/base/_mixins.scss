@@ -1,7 +1,6 @@
 // ==========================================================================
-// Mixins
+// General Mixins
 // Author: Mike Fortuna
-// Description: Various Reusable Mixins. Documentation/usage found above each.
 // ==========================================================================
 
 
@@ -91,39 +90,6 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-}
-
-// TRANSITIONS
-// @include transition-all(1.2s);
-
-@mixin transition-all($secs) {
-  -webkit-transition: all $secs ease;
-  -moz-transition: all $secs ease;
-  transition: all $secs ease;
-}
-
-@mixin transition-linear($secs) {
-  -webkit-transition: linear $secs ease;
-  -moz-transition: linear $secs ease;
-  -o-transition: linear $secs ease;
-  -ms-transition: linear $secs ease;
-  transition: linear $secs ease;
-}
-
-@mixin transition-opacity($secs) {
-  -webkit-transition: opacity $secs ease-in-out;
-  -moz-transition: opacity $secs ease-in-out;
-  -o-transition: opacity $secs ease-in-out;
-  -ms-transition: opacity $secs ease-in-out;
-  transition: opacity $secs ease-in-out;
-}
-
-@mixin transition-visibility($secs) {
-  -webkit-transition: visibility $secs linear;
-  -moz-transition: visibility $secs linear;
-  -o-transition: visibility $secs linear;
-  -ms-transition: visibility $secs linear;
-  transition: visibility $secs linear;
 }
 
 

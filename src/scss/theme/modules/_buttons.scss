@@ -1,0 +1,38 @@
+// ==========================================================================
+// Custom Buttons
+// ==========================================================================
+
+.btn {
+  &.huge {
+    font-size:$fsz-lg-btn;
+  }
+  &.block {
+    @extend %block;
+  }
+  &.btn-white {
+    color: $var-black;
+    &:hover {
+      background: $var-black;
+      color: $var-white;
+    }
+  }
+  &.btn-black {
+    color: $var-white;
+    &:hover {
+      background: $var-white;
+      color: $var-black;
+    }
+  }
+  &.btn-orange {
+    &:hover {
+      background: $var-white;
+      color: $var-black;
+    }
+  }
+  &.btn-yellow {
+    &:hover {
+      background: $var-white;
+      color: $var-black;
+    }
+  }
+}

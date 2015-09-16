@@ -6,6 +6,7 @@
 //-theme config
 @import "theme/config/var";
 @import "theme/config/colors";
+@import "theme/config/animations";
 @import "theme/config/fonts";
 @import "theme/config/images";
 @import "theme/config/dimensions";
@@ -14,6 +15,7 @@
 //-mg-core base
 @import "mg-core/base/helpers";
 @import "mg-core/base/mixins";
+@import "mg-core/base/transitions";
 @import "mg-core/base/media-mixins";
 @import "mg-core/base/reset";
 @import "mg-core/base/print";
@@ -28,7 +30,6 @@
 
 //-mg-core modules
 @import "mg-core/modules/buttons";
-@import "mg-core/modules/social";
 @import "mg-core/modules/hero";
 @import "mg-core/modules/sidebar";
 @import "mg-core/modules/social";
