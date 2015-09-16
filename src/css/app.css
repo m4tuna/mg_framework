@@ -55,6 +55,11 @@ header {
     header li a {
       text-decoration: none; }
 
+.btn.block {
+  display: block;
+  clear: both;
+  width: 100%; }
+
 header, .social {
   list-style-type: none; }
   header li a, .social li a {
@@ -498,6 +503,25 @@ table {
     content: "Setting"; }
   table.settings td:nth-of-type(2):before {
     content: "Usage"; } }
+.btn.huge {
+  font-size: 28px; }
+.btn.btn-white {
+  color: #000; }
+  .btn.btn-white:hover {
+    background: #000;
+    color: #fff; }
+.btn.btn-black {
+  color: #fff; }
+  .btn.btn-black:hover {
+    background: #fff;
+    color: #000; }
+.btn.btn-orange:hover {
+  background: #fff;
+  color: #000; }
+.btn.btn-yellow:hover {
+  background: #fff;
+  color: #000; }
+
 @media only screen and (max-width: 737px) {
   .nav-toggle {
     display: block; }
