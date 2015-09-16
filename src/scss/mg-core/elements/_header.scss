@@ -5,7 +5,14 @@
 header {
   width:100%;
   height:$header-height;
-  background:$header-color;
+  background-color:$header-bg-color;
+  background-image: url($header-bg-image);
+  background-attachment: $header-bg-attachment;
+  background-position: $header-bg-position;
+  background-size:$header-bg-size;
+  font-size:$header-fsz;
+  font-weight:$header-fw;
+  font-family:$header-font;
   color:$header-text-color;
   padding:$header-padding;
   z-index: 777;

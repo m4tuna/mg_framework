@@ -4,10 +4,18 @@
 
 
 nav {
+  background-color:$nav-bg-color;
+  background-image: url($nav-bg-image);
+  background-attachment: $nav-bg-attachment;
+  background-position: $nav-bg-position;
+  background-size:$nav-bg-size;
   li {
     background-color:$nav-li-bg-color;
     a {
       color:$nav-link-color;
+      font-size: $nav-fsz;
+      font-weight: $main-fw;
+      font-family:$nav-link-font;
     }
   }
 }

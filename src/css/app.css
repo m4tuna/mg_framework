@@ -175,13 +175,6 @@ input[type="submit"] {
   h2,
   h3 {
     page-break-after: avoid; } }
-img {
-  width: auto;
-  max-width: 100%;
-  height: auto; }
-  img.img-fluid {
-    width: 100%; }
-
 .wrapper {
   width: 100%;
   padding: 0 2em;
@@ -244,11 +237,24 @@ body {
     color: #fff; }
     body a:hover {
       color: #000; }
+  body img {
+    width: auto;
+    max-width: 100%;
+    height: auto; }
+    body img.img-fluid {
+      width: 100%; }
 
 header {
   width: 100%;
   height: 75px;
-  background: #000;
+  background-color: #000;
+  background-image: url("");
+  background-attachment: "";
+  background-position: "";
+  background-size: "";
+  font-size: 14px;
+  font-weight: "normal";
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #fff;
   padding: 0;
   z-index: 777; }
@@ -267,10 +273,19 @@ header {
 main {
   padding-top: 75px; }
 
-nav li {
-  background-color: transparent; }
-  nav li a {
-    color: #000; }
+nav {
+  background-color: transparent;
+  background-image: url("");
+  background-attachment: "";
+  background-position: "";
+  background-size: ""; }
+  nav li {
+    background-color: transparent; }
+    nav li a {
+      color: #000;
+      font-size: 14px;
+      font-weight: "normal";
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 .nav-toggle {
   display: none;
@@ -278,10 +293,20 @@ nav li {
   font-size: 28px;
   margin: 0; }
 
-main .row {
-  padding: 1em; }
-main [class*='column-'] {
-  padding: 0; }
+main {
+  font-family: 14px;
+  font-weight: "normal";
+  font-size: 14px;
+  color: #fff;
+  background: transparent;
+  background-image: url("");
+  background-attachment: "";
+  background-position: "";
+  background-size: ""; }
+  main .row {
+    padding: 1em; }
+  main [class*='column-'] {
+    padding: 0; }
 
 footer {
   padding: 1em 10%;
@@ -315,6 +340,19 @@ main {
     content: "";
     display: block;
     height: 50px; }
+
+a.logo {
+  height: 75px;
+  max-width: 250px;
+  background-image: url("");
+  background-attachment: "";
+  background-position: "";
+  background-size: "";
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+  a.logo:hover {
+    opacity: 0.7; }
 
 .btn {
   padding: 15px 20px;

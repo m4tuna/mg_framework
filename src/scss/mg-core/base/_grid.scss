@@ -4,13 +4,10 @@
 // Description: Reuseable Grid
 // ==========================================================================
 
-
-img {
-  width: auto;
-  max-width: 100%;
-  height: auto;
-  &.img-fluid {
-    width:100%;
+.wrapper, .row {
+  @extend %clearfix;
+  &.center {
+    @extend %center;
   }
 }
 
@@ -20,13 +17,6 @@ img {
   max-width: $grid-max-width;
   margin-left:auto;
   margin-right:auto;
-}
-
-.wrapper, .row {
-  @extend %clearfix;
-  &.center {
-    @extend %center;
-  }
 }
 
 [class*='column-'] {

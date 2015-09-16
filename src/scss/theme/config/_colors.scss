@@ -11,12 +11,19 @@ $link-color: $var-white;
 $link-hover: $var-black;
 
 //-header
-$header-color: $var-black;
+$header-bg-color: $var-black;
 $header-text-color: $var-white;
 $header-link-color: $var-white;
 $header-link-hover: $var-grey;
 
+//-main
+$main-bg-color: transparent;
+$main-text-color: $var-white;
+$main-link-color: $var-white;
+$main-link-hover: $var-grey;
+
 //-nav
+$nav-bg-color: transparent;
 $nav-link-color: $var-black;
 $nav-li-bg-color: transparent;
 
