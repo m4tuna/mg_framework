@@ -1,0 +1,19 @@
+// ==========================================================================
+// Nav
+// ==========================================================================
+
+
+nav {
+  li {
+    background-color:$nav-li-bg-color;
+    a {
+      color:$nav-link-color;
+    }
+  }
+}
+.nav-toggle {
+  display:none;
+  float: $mobile-nav-float;
+  font-size: $nav-toggle-fsz;
+  margin: 0;
+}

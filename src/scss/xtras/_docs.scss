@@ -3,23 +3,6 @@
 // M_G Docs Page
 // ==========================================================================
 
-body {
-  font-family:$default-font;
-  /* @include full-size-bg('../../public/images/doc.jpg'); */
-}
-
-h1, h3 {
-  font-family:$default-font;
-}
-
-p {
-  font-family:$default-font;
-}
-
-a {
-  color:$var-blue;
-  font-family:$default-font;
-}
 
 header {
   a {
@@ -51,6 +34,18 @@ main {
   }
   @include mobile {
     padding:0 1em;
+  }
+}
+
+.hero {
+  .btn-group {
+    padding-top:20px;
+    @include mobile {
+      a {
+        display:block;
+        margin-bottom:5px;
+      }
+    }
   }
 }
 

@@ -1,0 +1,42 @@
+// ==========================================================================
+// Color Config
+// ==========================================================================
+
+//-body
+$body-bg-color: $light-grey;
+$body-text-color: $var-black;
+
+//-global link
+$link-color: $var-white;
+$link-hover: $var-black;
+
+//-header
+$header-color: $var-black;
+$header-text-color: $var-white;
+$header-link-color: $var-white;
+$header-link-hover: $var-grey;
+
+//-nav
+$nav-link-color: $var-black;
+$nav-li-bg-color: transparent;
+
+//-mobile nav
+$mobile-nav-color: $var-black;
+$mobile-nav-link-color: $var-white;
+$mobile-nav-link-hover: $var-grey;
+
+//-hero
+$hero-bg-color: $var-blue;
+$hero-text-color: $var-white;
+
+//-footer
+$footer-bg-color: $var-black;
+$footer-text-color: $var-white;
+$footer-link-color: $var-white;
+$footer-link-hover: $var-blue;
+
+//-sidebar
+$sidebar-bg-color: $var-black;
+$sidebar-text-color: $var-white;
+$sidebar-link-color: $var-white;
+$sidebar-link-hover: $var-blue;

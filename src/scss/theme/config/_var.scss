@@ -2,16 +2,60 @@
 // Variable Config
 // ==========================================================================
 
-// font vars
+//-mobile bp
+$mobile: "only screen and (max-width : 737px)";
+$mobile-landscape: "only screen and (min-device-width : 320px) and (max-device-width : 737px) and (orientation : landscape)";
+$mobile-portrait: "only screen and (min-device-width : 320px) and (max-device-width : 737px) and (orientation : portrait) ";
+$iphone4-only: "only screen and (max-width : 320px)";
+
+//-tablet bp
+$tablet: "only screen and (min-width: 738px) and (max-width: 1027px)";
+$tablet-landscape: "only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)";
+$tablet-portrait: "only screen and (min-width: 30em) and (orientation : portrait)";
+
+//-desktop bp
+$desktop-sm: "only screen and (min-width: 800px) and (max-width: 1028px)";
+$desktop: "only screen and (min-width: 1029px)";
+
+//-ie mq
+$ie9-only: "only screen and (min-width:0\0)";
+$ie10-up: "all and (-ms-high-contrast: none), (-ms-high-contrast: active)";
+
+//-standard colors
+$var-black: #000;
+$var-blue: #495B7E;
+$var-white: #fff;
+$var-red: #ca2026;
+$var-yellow: #ffd850;
+$var-purple: #6b1769;
+$var-pink: #eb2048;
+$var-green: #4ebd45;
+$var-orange: #ff9e04;
+$var-grey: #a6a6a6;
+
+//-light colors
+$light-purple: #F5F5FF;
+$light-blue: #588bcd;
+$light-brown: #c89863;
+$lighter-brown: #f8d688;
+$light-grey: #efefef;
+$light-green: #E3FFE6;
+$light-orange: #f8d148;
+
+//-other colors
+$two-orange: #f8d148;
+$off-white: #f4f6f8;
+
+//-font family
 $open-sans: 'Open Sans', sans-serif;
 $roboto: 'Roboto', sans-serif;
 $lato: 'Lato', sans-serif;
 $dorsa: 'Dorsa', sans-serif;
 $gotham: 'gotham', sans-serif;
 $source: 'Source Code Pro';
-$default-font: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+$sans: 'Helvetica Neue',Helvetica,Arial,sans-serif;
 
-// font sizes
+//-font sizes
 $fsz-smaller: 10px !default;
 $fsz-small: 12px !default;
 $fsz-base: 14px !default;
@@ -19,20 +63,3 @@ $fsz-large: 18px !default;
 $fsz-larger: 22px !default;
 $fsz-button: 28px !default;
 $fsz-huge: 58px !default;
-
-// breakpoint variables
-
-$mobile: "only screen and (max-width : 737px)";
-$mobile-landscape: "only screen and (min-device-width : 320px) and (max-device-width : 737px) and (orientation : landscape)";
-$mobile-portrait: "only screen and (min-device-width : 320px) and (max-device-width : 737px) and (orientation : portrait) ";
-$iphone4-only: "only screen and (max-width : 320px)";
-
-$tablet: "only screen and (min-width: 738px) and (max-width: 1027px)";
-$tablet-landscape: "only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)";
-$tablet-portrait: "only screen and (min-width: 30em) and (orientation : portrait)";
-
-$desktop-sm: "only screen and (min-width: 800px) and (max-width: 1028px)";
-$desktop: "only screen and (min-width: 1029px)";
-
-$ie9-only: "only screen and (min-width:0\0)";
-$ie10-up: "all and (-ms-high-contrast: none), (-ms-high-contrast: active)";

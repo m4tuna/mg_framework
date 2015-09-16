@@ -1,0 +1,22 @@
+// ==========================================================================
+// Body
+// ==========================================================================
+
+body {
+  font-family:$body-fsz;
+  font-weight: $body-fw;
+  font-size: $body-fsz;
+  color: $body-text-color;
+  background: $body-bg-color;
+  background-image: url($body-bg-image);
+  background-attachment: $body-bg-attachment;
+  background-position: $body-bg-position;
+  background-size:$body-bg-size;
+  @extend %font-smoothing;
+  a {
+    color:$link-color;
+    &:hover {
+      color:$link-hover;
+    }
+  }
+}

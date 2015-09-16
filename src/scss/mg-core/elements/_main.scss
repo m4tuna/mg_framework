@@ -1,10 +1,12 @@
 // ==========================================================================
-// Nav
+// Main
 // ==========================================================================
 
-.nav-toggle {
-  display:none;
-  float: right;
-  font-size: 28px;
-  margin: 0;
+main {
+  .row {
+    padding: $main-row-padding;
+  }
+  [class*='column-'] {
+    padding: $main-col-padding;
+  }
 }

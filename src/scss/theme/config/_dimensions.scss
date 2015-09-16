@@ -1,0 +1,42 @@
+// ==========================================================================
+// Dimensions
+// ==========================================================================
+
+
+//-grid
+$grid-columns: 12;
+$grid-max-width: 100em;
+
+//-main
+$main-row-padding: 1em;
+$main-col-padding: 0;
+$wrapper-padding: 0 2em;
+
+//-nav
+$nav-height: auto;
+$nav-padding: 0 0;
+
+//-mobile nav
+$mobile-nav-height: auto;
+$mobile-nav-padding:0 0 15px;
+
+//-header
+$header-height: 75px;
+$header-col-padding: 10px;
+$header-padding: 0;
+
+//-hero
+$hero-height: 420px;
+$hero-padding: 100px 0;
+$hero-mobile-padding: 80px 0;
+
+
+//-footer
+$footer-padding: 1em 10%;
+$footer-col-padding: 1em;
+$footer-height: 50px;
+
+//-sidebar
+$sidebar-width: 100px;
+$sidebar-col-padding: 0;
+$sidebar-padding: 10px 5px;

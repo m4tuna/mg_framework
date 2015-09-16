@@ -1,0 +1,24 @@
+// ==========================================================================
+// Hero
+// ==========================================================================
+
+
+.hero {
+  width:100%;
+  height:$hero-height;
+  font-family:$hero-fsz;
+  font-weight: $hero-fw;
+  font-size: $hero-fsz;
+  color: $hero-text-color;
+  background: $hero-bg-color;
+  background-image: url($hero-bg-image);
+  background-attachment: $hero-bg-attachment;
+  background-position: $hero-bg-position;
+  background-size:$hero-bg-size;
+  &.row {
+    padding:$hero-padding;
+    @include mobile {
+      padding:$hero-mobile-padding;
+    }
+  }
+}

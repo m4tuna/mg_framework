@@ -1,0 +1,41 @@
+// ==========================================================================
+// MG Imports
+// Author: Mike Fortuna
+// ==========================================================================
+
+//-theme config
+@import "theme/config/var";
+@import "theme/config/colors";
+@import "theme/config/fonts";
+@import "theme/config/images";
+@import "theme/config/dimensions";
+@import "theme/config/settings";
+
+//-mg-core base
+@import "mg-core/base/helpers";
+@import "mg-core/base/mixins";
+@import "mg-core/base/media-mixins";
+@import "mg-core/base/reset";
+@import "mg-core/base/print";
+@import "mg-core/base/grid";
+
+//-mg-core elements
+@import "mg-core/elements/body";
+@import "mg-core/elements/header";
+@import "mg-core/elements/nav";
+@import "mg-core/elements/main";
+@import "mg-core/elements/footer";
+
+//-mg-core modules
+@import "mg-core/modules/buttons";
+@import "mg-core/modules/social";
+@import "mg-core/modules/hero";
+@import "mg-core/modules/sidebar";
+@import "mg-core/modules/social";
+@import "mg-core/modules/table";
+
+//-theme responsive styles
+@import "theme/responsive/mobile";
+@import "theme/responsive/tablet";
+@import "theme/responsive/desktop";
+@import "theme/responsive/ie";
