@@ -339,6 +339,11 @@ article {
     article a:hover {
       color: #a6a6a6; }
 
+code {
+  vertical-align: middle;
+  padding: 0.25em 0.5em;
+  background: rgba(193, 199, 208, 0.3); }
+
 footer {
   padding: 1em 10%;
   clear: both;
