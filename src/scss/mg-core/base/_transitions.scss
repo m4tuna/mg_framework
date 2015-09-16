@@ -35,3 +35,48 @@
   -ms-transition: visibility $secs linear;
   transition: visibility $secs linear;
 }
+
+
+// brotate animation
+@-webkit-keyframes brotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes brotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+// brotate mixin
+// @include transition-brotate(1.2s);
+@mixin transition-brotate($secs) {
+  -webkit-animation: rotating $secs linear infinite;
+  -moz-animation: rotating $secs linear infinite;
+  -ms-animation: rotating $secs linear infinite;
+  -o-animation: rotating $secs linear infinite;
+  animation: rotating $secs linear infinite;
+}
