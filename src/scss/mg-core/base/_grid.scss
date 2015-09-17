@@ -1,0 +1,41 @@
+// ==========================================================================
+// Grid Config / Resets
+// Author: Mike Fortuna
+// Description: Reuseable Grid
+// ==========================================================================
+
+.wrapper, .row {
+  @extend %clearfix;
+  &.center {
+    @extend %center;
+  }
+}
+
+.wrapper {
+  width: 100%;
+  padding:$wrapper-padding;
+  max-width: $grid-max-width;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+[class*='column-'] {
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  &.center {
+    @extend %center;
+  }
+  &.right {
+    @extend %right;
+  }
+  &.left {
+    @extend %left;
+  }
+}
+
+@for $i from 1 through $grid-columns {
+  .column-#{$i} {
+    width: 100% / $grid-columns * $i;
+  }
+}

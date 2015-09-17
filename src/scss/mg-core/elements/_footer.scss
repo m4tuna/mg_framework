@@ -1,0 +1,45 @@
+// ==========================================================================
+// Footer
+// ==========================================================================
+
+footer {
+  padding:$footer-padding;
+  clear:both;
+  height:$footer-height;
+  font-family:$footer-fsz;
+  font-weight: $footer-fw;
+  font-size: $footer-fsz;
+  color: $footer-text-color;
+  background: $footer-bg-color;
+  background-image: url($footer-bg-image);
+  background-attachment: $footer-bg-attachment;
+  background-position: $footer-bg-position;
+  background-size:$footer-bg-size;
+  a {
+    color:$footer-link-color;
+    &:hover {
+      color:$footer-link-hover;
+    }
+  }
+  .wrapper {
+    margin: 0 auto;
+  }
+  [class*='column-'] {
+    padding:$footer-col-padding;
+  }
+}
+
+@if $sticky-footer == true {
+  html, body {
+    height: 100%;
+  }
+  main {
+    min-height: 100%;
+    margin-bottom:-$footer-height;
+    &:after {
+      content: "";
+      display: block;
+      height: $footer-height;
+    }
+  }
+}

@@ -1,0 +1,81 @@
+// ==========================================================================
+// Media Query Mixins
+// Author: Mike Fortuna
+// Description: Various Reusable Mixins. Documentation/usage found above each.
+// ==========================================================================
+
+
+// MEDIA QUERY
+// usage: @media #{$bp-medium} { }
+// ---or---
+// .class {
+//   @include bp-small {
+//      bar: foo;
+//    }
+// }
+
+@mixin desktop {
+  @media only screen and (max-width: 60em) {
+    @content;
+  }
+}
+
+@mixin desktop-sm {
+  @media only screen and (max-width: 70em) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media only screen and (max-width: 40em) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media only screen and (max-width: 30em) {
+    @content;
+  }
+}
+
+@mixin mobile-landscape {
+  @media only screen and (max-width: 70em) {
+    @content;
+  }
+}
+
+@mixin mobile-portrait {
+  @media only screen and (max-width: 70em) {
+    @content;
+  }
+}
+
+@mixin iphone4-only {
+  @media only screen and (max-width: 70em) {
+    @content;
+  }
+}
+
+@mixin tablet-landscape {
+  @media only screen and (max-width: 70em) {
+    @content;
+  }
+}
+
+@mixin tablet-portrait {
+  @media only screen and (max-width: 70em) {
+    @content;
+  }
+}
+
+@mixin ie9-only {
+  @media only screen and (max-width: 70em) {
+    @content;
+  }
+}
+
+@mixin ie10-up {
+  @media only screen and (max-width: 70em) {
+    @content;
+  }
+}

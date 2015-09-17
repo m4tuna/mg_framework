@@ -1,0 +1,82 @@
+// ==========================================================================
+// Transitions
+// Author: Mike Fortuna
+// ==========================================================================
+
+// TRANSITIONS
+// @include transition-all(1.2s);
+
+@mixin transition-all($secs) {
+  -webkit-transition: all $secs ease;
+  -moz-transition: all $secs ease;
+  transition: all $secs ease;
+}
+
+@mixin transition-linear($secs) {
+  -webkit-transition: linear $secs ease;
+  -moz-transition: linear $secs ease;
+  -o-transition: linear $secs ease;
+  -ms-transition: linear $secs ease;
+  transition: linear $secs ease;
+}
+
+@mixin transition-opacity($secs) {
+  -webkit-transition: opacity $secs ease-in-out;
+  -moz-transition: opacity $secs ease-in-out;
+  -o-transition: opacity $secs ease-in-out;
+  -ms-transition: opacity $secs ease-in-out;
+  transition: opacity $secs ease-in-out;
+}
+
+@mixin transition-visibility($secs) {
+  -webkit-transition: visibility $secs linear;
+  -moz-transition: visibility $secs linear;
+  -o-transition: visibility $secs linear;
+  -ms-transition: visibility $secs linear;
+  transition: visibility $secs linear;
+}
+
+
+// brotate animation
+@-webkit-keyframes brotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes brotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+// brotate mixin
+// @include transition-brotate(1.2s);
+@mixin transition-brotate($secs) {
+  -webkit-animation: rotating $secs linear infinite;
+  -moz-animation: rotating $secs linear infinite;
+  -ms-animation: rotating $secs linear infinite;
+  -o-animation: rotating $secs linear infinite;
+  animation: rotating $secs linear infinite;
+}

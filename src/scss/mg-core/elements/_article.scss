@@ -1,0 +1,21 @@
+// ==========================================================================
+// Article
+// ==========================================================================
+
+article {
+  font-family:$article-fsz;
+  font-weight: $article-fw;
+  font-size: $article-fsz;
+  color: $article-text-color;
+  background: $article-bg-color;
+  background-image: url($article-bg-image);
+  background-attachment: $article-bg-attachment;
+  background-position: $article-bg-position;
+  background-size:$article-bg-size;
+  a {
+    color:$article-link-color;
+    &:hover {
+      color:$article-link-hover;
+    }
+  }
+}

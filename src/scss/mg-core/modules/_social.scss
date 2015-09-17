@@ -1,0 +1,21 @@
+// ==========================================================================
+// Social Links
+// ==========================================================================
+
+.social {
+  @extend %list-reset;
+  iframe {
+    position: relative;
+    top: 8px;
+  }
+  a {
+    background:$social-bg-color;
+    color:$social-text-color;
+    padding:$social-link-padding;
+    border-radius:$social-border-radius;
+    @include transition-all($social-hover-time);
+    &.tw, &.yt {
+      padding:$social-extras-padding;
+    }
+  }
+}

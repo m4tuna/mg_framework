@@ -1,0 +1,46 @@
+// ==========================================================================
+// Header
+// ==========================================================================
+
+header {
+  width:100%;
+  height:$header-height;
+  background-color:$header-bg-color;
+  background-image: url($header-bg-image);
+  background-attachment: $header-bg-attachment;
+  background-position: $header-bg-position;
+  background-size:$header-bg-size;
+  font-size:$header-fsz;
+  font-weight:$header-fw;
+  font-family:$header-font;
+  color:$header-text-color;
+  padding:$header-padding;
+  z-index: 777;
+  @extend %list-reset;
+  @extend %list-inline;
+  a {
+    color:$header-link-color;
+    &:hover {
+      color:$header-link-hover;
+    }
+  }
+  [class*='column-'] {
+    padding:$header-col-padding;
+  }
+  @if $scroll-header == true {
+    &.scrollHeader {
+      height:40px;
+      padding-top:0px;
+    }
+  }
+}
+
+
+@if $fixed-header == true {
+  header {
+    @include position(fixed, $top: 0, $left: 0);
+  }
+  main {
+    padding-top:$header-height;
+  }
+}
