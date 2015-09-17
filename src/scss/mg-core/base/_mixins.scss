@@ -75,6 +75,16 @@
   background-size: cover;
 }
 
+
+// Background-size mixin
+// @include bg-size($bg-size);
+@mixin bg-size($bg-size) {
+  -webkit-background-size: $bg-size;
+  -moz-background-size: $bg-size;
+  -o-background-size: $bg-size;
+  background-size: $bg-size;
+}
+
 // Size mixin
 // @include size(100%, 100%);
 

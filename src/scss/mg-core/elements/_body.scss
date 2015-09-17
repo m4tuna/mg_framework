@@ -9,9 +9,10 @@ body {
   color: $body-text-color;
   background: $body-bg-color;
   background-image: url($body-bg-image);
+  background-repeat:$body-bg-repeat;
   background-attachment: $body-bg-attachment;
   background-position: $body-bg-position;
-  background-size:$body-bg-size;
+  @include bg-size($body-bg-size);
   @extend %font-smoothing;
   a {
     color:$link-color;

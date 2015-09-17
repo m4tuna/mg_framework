@@ -3,61 +3,71 @@
 // ==========================================================================
 
 //-body
-$body-bg-image: '';
-$body-bg-attachment: '';
-$body-bg-position: '';
-$body-bg-size: '';
+$body-bg-image:'' ;
+$body-bg-attachment: none ;
+$body-bg-position: 0 0;
+$body-bg-repeat: no-repeat;
+$body-bg-size: cover;
 
 //-logo
 $logo-image: '';
-$logo-bg-attachment: '';
-$logo-bg-position: '';
-$logo-bg-size: '';
+$logo-bg-attachment: none;
+$logo-bg-position: 0 0;
+$logo-bg-repeat: no-repeat;
+$logo-bg-size: cover;
 
 //-header
 $header-bg-image: '';
-$header-bg-attachment: '';
-$header-bg-position: '';
-$header-bg-size: '';
+$header-bg-attachment: none;
+$header-bg-position: 0 0;
+$header-bg-repeat: no-repeat;
+$header-bg-size: cover;
 
 //-nav
-$nav-bg-image: '';
-$nav-bg-attachment: '';
-$nav-bg-position: '';
-$nav-bg-size: '';
+$nav-bg-image: '' ;
+$nav-bg-attachment: none ;
+$nav-bg-position: 0 0 ;
+$nav-bg-repeat: no-repeat ;
+$nav-bg-size: cover ;
 
 //-section
-$section-bg-image: '';
-$section-bg-attachment: '';
-$section-bg-position: '';
-$section-bg-size: '';
+$section-bg-image: '' ;
+$section-bg-attachment: none ;
+$section-bg-position: 0 0 ;
+$section-bg-repeat: no-repeat ;
+$section-bg-size: cover ;
 
 //-article
 $article-bg-image: '';
-$article-bg-attachment: '';
-$article-bg-position: '';
-$article-bg-size: '';
+$article-bg-attachment: none;
+$article-bg-position: 0 0;
+$article-bg-repeat: no-repeat;
+$article-bg-size: cover;
 
 //-hero
 $hero-bg-image: '';
-$hero-bg-attachment: '';
-$hero-bg-position: '';
-$hero-bg-size: '';
+$hero-bg-attachment: none;
+$hero-bg-position: 0 0;
+$hero-bg-repeat: no-repeat;
+$hero-bg-size: cover;
 
 //-main
 $main-bg-image: '';
-$main-bg-attachment: '';
-$main-bg-position: '';
-$main-bg-size: '';
+$main-bg-attachment: none;
+$main-bg-position: 0 0;
+$main-bg-repeat: no-repeat;
+$main-bg-size: cover;
 
 //-sidebar
 $sidebar-bg-image: '';
-$sidebar-bg-attachment: '';
-$sidebar-bg-position: '';
-$sidebar-bg-size: '';
+$sidebar-bg-attachment: none;
+$sidebar-bg-position: 0 0;
+$sidebar-bg-repeat: no-repeat;
+$sidebar-bg-size: cover;
 
 //-footer
 $footer-bg-image: '';
-$footer-bg-attachment: '';
-$footer-bg-position: '';
-$footer-bg-size: '';
+$footer-bg-attachment: none;
+$footer-bg-position: 0 0;
+$footer-bg-repeat: no-repeat;
+$footer-bg-size: cover;
