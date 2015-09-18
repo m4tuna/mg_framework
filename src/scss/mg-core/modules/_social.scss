@@ -4,6 +4,7 @@
 
 .social {
   @extend %list-reset;
+  margin:$social-margin;
   iframe {
     position: relative;
     top: 8px;
