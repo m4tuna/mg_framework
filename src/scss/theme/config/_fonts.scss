@@ -2,9 +2,9 @@
 // Load in Fonts
 // ==========================================================================
 
-@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300');
-@import url('http://fonts.googleapis.com/css?family=Lato');
-@import url('http://fonts.googleapis.com/css?family=Source+Code+Pro');
+@import url('//fonts.googleapis.com/css?family=Open+Sans:400,700,800,300');
+@import url('//fonts.googleapis.com/css?family=Lato');
+@import url('//fonts.googleapis.com/css?family=Press+Start+2P');
 
 //-body
 $body-fsz: 14px;
@@ -51,9 +51,10 @@ $sidebar-fw: 'normal';
 $sidebar-font: $sans;
 
 //-footer
-$footer-fsz: 14px;
+$footer-fsz: 8px;
 $footer-fw: 'normal';
-$footer-font: $sans;
+$footer-lh: 12px;
+$footer-font: $default-font;
 
 //-buttons
-$btn-font: $open-sans;
+$btn-font: $default-font;

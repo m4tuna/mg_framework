@@ -16,7 +16,6 @@
 @import "mg-core/base/helpers";
 @import "mg-core/base/mixins";
 @import "mg-core/base/transitions";
-@import "mg-core/base/media-mixins";
 @import "mg-core/base/reset";
 @import "mg-core/base/print";
 @import "mg-core/base/grid";
@@ -38,6 +37,7 @@
 @import "mg-core/modules/sidebar";
 @import "mg-core/modules/social";
 @import "mg-core/modules/table";
+@import "mg-core/modules/hero";
 
 //-theme custom
 @import "theme/custom/modules/buttons";
