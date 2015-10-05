@@ -13,6 +13,7 @@
 
 // Apply the new box model definition & reset to no margin on anything
 * {
+   -webkit-tap-highlight-color:rgba(0,0,0,0);
   &,
   &:before,
   &:after{
@@ -21,7 +22,6 @@
     margin: 0;
   }
 }
-
 
 // Apply display block to new HTML5 elements
 article,

@@ -17,8 +17,5 @@
   background-size:$hero-bg-size;
   &.row {
     padding:$hero-padding;
-    @include mobile {
-      padding:$hero-mobile-padding;
-    }
   }
 }

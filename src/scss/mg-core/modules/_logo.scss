@@ -4,8 +4,9 @@
 
 a.logo {
   display: $logo-display;
-  height:$header-height;
+  height:$logo-height;
   width:$logo-width;
+  margin:$logo-margin;
   max-width:$logo-max-width;
   background-image: url($logo-image);
   background-attachment: $logo-bg-attachment;
