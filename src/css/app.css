@@ -525,6 +525,7 @@ body.mg-backdrop {
 
 .mg-modal {
   position: fixed;
+  background: #fff;
   left: 0;
   right: 0;
   margin: 0 auto;
