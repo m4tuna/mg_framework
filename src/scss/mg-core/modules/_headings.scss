@@ -4,28 +4,35 @@
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $heading-font;
+  color:$heading-color;
 }
 
 h1 {
   font-size:$h1-fsz;
+  color:$h1-color;
 }
 
 h2 {
   font-size:$h2-fsz;
+  color:$h2-color;
 }
 
 h3 {
   font-size:$h3-fsz;
+  color:$h3-color;
 }
 
 h4 {
   font-size:$h4-fsz;
+  color:$h4-color;
 }
 
 h5 {
   font-size:$h5-fsz;
+  color:$h5-color;
 }
 
 h6 {
   font-size:$h6-fsz;
+  color:$h6-color;
 }
