@@ -14,22 +14,31 @@ $body-font: $sans;
 //-header
 $header-fsz: 14px;
 $header-fw: 'normal';
-$header-font: $sans;
+$header-font: $default-font;
+
+//-headings
+$heading-font: $default-font;
+$h1-fsz: 45px;
+$h2-fsz: 35px;
+$h3-fsz: 25px;
+$h4-fsz: 20px;
+$h5-fsz: 18px;
+$h6-fsz: 15px;
 
 //-section
 $section-fsz: 14px;
 $section-fw: 'normal';
-$section-font: $sans;
+$section-font: $default-font;
 
 //-article
 $article-fsz: 14px;
 $article-fw: 'normal';
-$article-font: $sans;
+$article-font: $default-font;
 
 //-nav
 $nav-fsz: 14px;
 $nav-fw: 'normal';
-$nav-link-font: $sans;
+$nav-link-font: $default-font;
 
 //-mobile nav
 $mobile-nav-fsz: 20px;
@@ -38,17 +47,17 @@ $nav-toggle-fsz: 28px;
 //-hero
 $hero-fsz: 14px;
 $hero-fw: 'normal';
-$hero-font: $sans;
+$hero-font: $default-font;
 
 //-main
 $main-fsz: 14px;
 $main-fw: 'normal';
-$main-font: $sans;
+$main-font: $default-font;
 
 //-sidebar
 $sidebar-fsz: 14px;
 $sidebar-fw: 'normal';
-$sidebar-font: $sans;
+$sidebar-font: $default-font;
 
 //-footer
 $footer-fsz: 8px;
