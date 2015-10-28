@@ -5,6 +5,7 @@
 //-body
 $body-bg-color: $light-grey;
 $body-text-color: $var-black;
+$backdrop: rgba(0, 0, 0, 0.65);
 
 //-global link
 $link-color: $var-white;
@@ -92,3 +93,8 @@ $social-text-color: $var-black;
 
 //-code
 $code-bg-color: rgba(193, 199, 208, .3);
+
+//-form
+$input-border: $var-grey;
+$error-border: $var-red;
+$error-bg: $light-grey;

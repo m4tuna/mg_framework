@@ -5,6 +5,11 @@
 
 @media #{$desktop} {
 
+  ul.nav {
+    //shows nav even after jQuery closes it and browser is resized back
+    display:block !important;
+  }
+
   .hide-mobile {
     display:block;
   }
