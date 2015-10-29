@@ -11,7 +11,6 @@
 --------------------------------------------------------- */
 @import url("//fonts.googleapis.com/css?family=Open+Sans:400,700,800,300");
 @import url("//fonts.googleapis.com/css?family=Lato");
-@import url("//fonts.googleapis.com/css?family=Press+Start+2P");
 .btn.btn-black {
   background-color: #000; }
 
@@ -716,6 +715,33 @@ table {
     width: 100%; }
   main .column-12 {
     width: 100%; }
+
+  header {
+    text-align: center; }
+    header .column-1 {
+      width: 100%; }
+    header .column-2 {
+      width: 100%; }
+    header .column-3 {
+      width: 100%; }
+    header .column-4 {
+      width: 100%; }
+    header .column-5 {
+      width: 100%; }
+    header .column-6 {
+      width: 100%; }
+    header .column-7 {
+      width: 100%; }
+    header .column-8 {
+      width: 100%; }
+    header .column-9 {
+      width: 100%; }
+    header .column-10 {
+      width: 100%; }
+    header .column-11 {
+      width: 100%; }
+    header .column-12 {
+      width: 100%; }
 
   footer [class*='column-'] {
     padding: 0; }

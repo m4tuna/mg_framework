@@ -2,6 +2,11 @@
 // Variable Config
 // ==========================================================================
 
+//-desktop bp
+$desktop-lg: "only screen and (min-width: 1200px)";
+$desktop-sm: "only screen and (min-width: 800px) and (max-width: 1028px)";
+$desktop: "only screen and (min-width: 1029px)";
+
 //-mobile bp
 $mobile: "only screen and (max-width : 737px)";
 $mobile-landscape: "only screen and (min-device-width : 320px) and (max-device-width : 737px) and (orientation : landscape)";
@@ -12,10 +17,6 @@ $iphone4-only: "only screen and (max-width : 320px)";
 $tablet: "only screen and (min-width: 738px) and (max-width: 1027px)";
 $tablet-landscape: "only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)";
 $tablet-portrait: "only screen and (min-width: 30em) and (orientation : portrait)";
-
-//-desktop bp
-$desktop-sm: "only screen and (min-width: 800px) and (max-width: 1028px)";
-$desktop: "only screen and (min-width: 1029px)";
 
 //-ie mq
 $ie9-only: "only screen and (min-width:0\0)";
@@ -52,22 +53,9 @@ $insta-blue: #455b84;
 $walmart-blue: #007cc2;
 
 //-font family
-$open-sans: 'Open Sans', sans-serif;
-$roboto: 'Roboto', sans-serif;
-$lato: 'Lato', sans-serif;
-$dorsa: 'Dorsa', sans-serif;
-$gotham: 'gotham', sans-serif;
-$source: 'Source Code Pro';
 $sans: 'Helvetica Neue',Helvetica,Arial,sans-serif;
-
-//-font sizes
-$fsz-smaller: 10px !default;
-$fsz-small: 12px !default;
-$fsz-base: 14px !default;
-$fsz-large: 18px !default;
-$fsz-larger: 22px !default;
-$fsz-lg-btn: 28px !default;
-$fsz-huge: 58px !default;
+$open-sans: 'Open Sans', sans-serif;
+$lato: 'Lato', sans-serif;
 
 //-default font
 $default-font: $sans;

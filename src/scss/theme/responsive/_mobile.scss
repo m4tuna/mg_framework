@@ -42,6 +42,7 @@
 
   @if $full-width-header-mobile == true {
     header {
+      text-align: center;
       @for $i from 1 through $grid-columns {
         .column-#{$i} {
           width: 100%;
@@ -52,6 +53,7 @@
 
   @if $full-width-footer-mobile == true {
     footer {
+      text-align: center;
       @for $i from 1 through $grid-columns {
         .column-#{$i} {
           width: 100%;
