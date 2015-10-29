@@ -1,0 +1,54 @@
+// ==========================================================================
+// LF Media Wall
+// ==========================================================================
+
+#push-mediawall-0 {
+  overflow:hidden;
+  .content {
+    p {
+       font-size:14px;
+       color:$var-blue;
+       font-family:$default-font;
+       font-weight: 500;
+       line-height: 20px;
+    }
+    .content-default a {
+      color:$var-purple;
+    }
+  }
+  a.content-author-avatar, .content-author-username {
+    display:none;
+  }
+  .content-author-name a {
+    color:$var-blue;
+    font-family:$default-font;
+    text-shadow:none;
+  }
+  .hub-list-more {
+    border:1px solid $var-purple;
+    color:$var-purple;
+    font-family:$default-font;
+    text-transform: uppercase;
+    letter-spacing:2px;
+    width: 200px;
+    padding: 12px 0;
+    &:hover {
+      border:1px solid $var-purple;
+      color:$var-white;
+      background:$var-purple;
+    }
+  }
+  .content-default.content-with-image .content-header {
+    background:none;
+    box-shadow: none;
+    border-radius:0;
+  }
+  .content-default.content-with-image .content-attachment .content-attachment-photo {
+    box-shadow:none;
+    top: 50px;
+    border-radius: 0;
+  }
+  .content-default.content-with-image .content-attachment .content-attachment-frame {
+    box-shadow:none;
+  }
+}
