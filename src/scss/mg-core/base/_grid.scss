@@ -19,6 +19,10 @@
   margin-right:auto;
 }
 
+.row {
+  clear: both;
+}
+
 [class*='column-'] {
   float: left;
   width: 100%;
