@@ -12,6 +12,10 @@ nav {
   li {
     background-color:$nav-li-bg-color;
     padding:$nav-link-padding;
+    iframe {
+      position: relative;
+      top: $iframe-top-fix;
+    }
     a {
       color:$nav-link-color;
       font-size: $nav-fsz;
