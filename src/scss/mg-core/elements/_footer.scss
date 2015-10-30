@@ -16,6 +16,12 @@ footer {
   background-position: $footer-bg-position;
   background-size:$footer-bg-size;
   line-height: $footer-lh;
+  @if $footer-list-reset == true {
+    @extend %list-reset;
+  }
+  @if $footer-list-inline == true {
+    @extend %list-inline;
+  }
   p {
     font-family:$footer-font;
     font-size:$footer-fsz;
