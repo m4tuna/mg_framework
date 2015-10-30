@@ -262,6 +262,9 @@ input[type="submit"] {
   margin-left: auto;
   margin-right: auto; }
 
+.row {
+  clear: both; }
+
 [class*='column-'] {
   float: left;
   width: 100%;
@@ -591,6 +594,8 @@ input[type="text"], select {
     transition: all 0.5s ease; }
     .social a.tw, .social a.yt {
       padding: 5px 9px; }
+    .social a:hover {
+      color: #fff; }
 
 table {
   width: 100%;
