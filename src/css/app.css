@@ -1,7 +1,7 @@
 /**
 
   @app
-  MG_Framework v 0.7
+  MG_Framework v 0.8
 ---------------------------------------------------------
 
   Author: Mike Fortuna
@@ -66,11 +66,11 @@
 [class*='column-'].left {
   text-align: left; }
 
-header {
+header, #buy {
   list-style-type: none; }
-  header li {
+  header li, #buy li {
     display: inline; }
-    header li a {
+    header li a, #buy li a {
       text-decoration: none; }
 
 .btn.block {
@@ -78,9 +78,9 @@ header {
   clear: both;
   width: 100%; }
 
-header, .social {
+header, .social, #buy {
   list-style-type: none; }
-  header li a, .social li a {
+  header li a, .social li a, #buy li a {
     text-decoration: none; }
 
 body {
@@ -668,6 +668,136 @@ table {
 .btn.btn-yellow:hover {
   background: #fff;
   color: #000; }
+
+#buy {
+  text-align: center; }
+  #buy a {
+    display: inline-block;
+    height: 35px;
+    background: url("../images/buy-buttons.png"); }
+    #buy a.itunes-music {
+      width: 100px;
+      background-position: -0 0px; }
+    #buy a.itunes {
+      width: 100px;
+      background-position: -110px 0px; }
+    #buy a.amazon {
+      width: 104px;
+      background-position: 0 -47px; }
+    #buy a.google {
+      width: 99px;
+      background-position: -224px 0px; }
+    #buy a.spotify {
+      width: 100px;
+      background-position: -111px -48px; }
+
+#push-mediawall-0 {
+  overflow: hidden; }
+  #push-mediawall-0 .content p {
+    font-size: 14px;
+    color: #495B7E;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 20px; }
+  #push-mediawall-0 .content .content-default a {
+    color: #6b1769; }
+  #push-mediawall-0 a.content-author-avatar, #push-mediawall-0 .content-author-username {
+    display: none; }
+  #push-mediawall-0 .content-author-name a {
+    color: #495B7E;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-shadow: none; }
+  #push-mediawall-0 .hub-list-more {
+    border: 1px solid #6b1769;
+    color: #6b1769;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 200px;
+    padding: 12px 0; }
+    #push-mediawall-0 .hub-list-more:hover {
+      border: 1px solid #6b1769;
+      color: #fff;
+      background: #6b1769; }
+  #push-mediawall-0 .content-default.content-with-image .content-header {
+    background: none;
+    box-shadow: none;
+    border-radius: 0; }
+  #push-mediawall-0 .content-default.content-with-image .content-attachment .content-attachment-photo {
+    box-shadow: none;
+    top: 50px;
+    border-radius: 0; }
+  #push-mediawall-0 .content-default.content-with-image .content-attachment .content-attachment-frame {
+    box-shadow: none; }
+
+#tour {
+  width: 850px;
+  margin: 0 auto; }
+  #tour table {
+    margin-top: 3em;
+    border-bottom: 2px solid #000 !important;
+    padding-bottom: 5px; }
+  #tour #bit-events .bit-header-links {
+    color: #F5F5FF; }
+  #tour #bit-events a.bit-track-artist-header, #tour #bit-events .bit-header {
+    display: none !important; }
+  #tour th.bit-description-links, #tour th.bit-date, #tour th.bit-venue, #tour th.bit-location, #tour th.bit-artist-event-link, #tour th.bit-tickets {
+    margin-top: 4em;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    padding: 1em 0; }
+  #tour th.bit-venue, #tour th.bit-date, #tour th.bit-location, #tour th.bit-tickets {
+    text-transform: uppercase !important;
+    color: #c89863 !important;
+    font-size: 10px;
+    font-weight: 400; }
+  #tour td.bit-date a, #tour td.bit-venue a, #tour td.bit-location a {
+    font-size: 15px !important; }
+  #tour td.bit-venue, #tour td.bit-location {
+    color: #F5F5FF;
+    font-weight: bold; }
+  #tour td.bit-date {
+    color: #ca2026;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    width: 90px; }
+  #tour td .bit-uiButton {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important; }
+  #tour td.bit-rsvp {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0px 8px; }
+    #tour td.bit-rsvp a {
+      font-family: "Lato", sans-serif;
+      text-align: center;
+      text-transform: uppercase;
+      background: #F5F5FF;
+      color: #fff !important;
+      font-family: "Lato", sans-serif;
+      border-radius: 4px;
+      padding: 5px 12px;
+      position: relative;
+      bottom: 5px; }
+      #tour td.bit-rsvp a:hover {
+        background: #F5F5FF; }
+  #tour td.bit-tickets {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0px 8px; }
+    #tour td.bit-tickets a {
+      background: #c89863;
+      color: #fff;
+      font-family: "Lato", sans-serif;
+      border-radius: 4px;
+      padding: 5px 12px;
+      text-align: center;
+      text-transform: uppercase; }
+      #tour td.bit-tickets a:hover {
+        background: #f8d688; }
 
 @media only screen and (max-width: 737px) {
   .nav-toggle {

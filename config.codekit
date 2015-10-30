@@ -395,15 +395,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/scss\/theme\/config\/_animations.scss": {
+	"\/src\/scss\/mg-theme\/theme\/config\/_animations.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/scss\/theme\/config\/_animations.scss",
-		"outputAbbreviatedPath": "\/src\/scss\/theme\/css\/_animations.css",
+		"inputAbbreviatedPath": "\/src\/scss\/mg-theme\/theme\/config\/_animations.scss",
+		"outputAbbreviatedPath": "\/src\/scss\/mg-theme\/theme\/css\/_animations.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -411,15 +411,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/scss\/theme\/config\/_colors.scss": {
+	"\/src\/scss\/mg-theme\/theme\/config\/_colors.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/scss\/theme\/config\/_colors.scss",
-		"outputAbbreviatedPath": "\/src\/scss\/theme\/css\/_colors.css",
+		"inputAbbreviatedPath": "\/src\/scss\/mg-theme\/theme\/config\/_colors.scss",
+		"outputAbbreviatedPath": "\/src\/scss\/mg-theme\/theme\/css\/_colors.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -427,15 +427,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/scss\/theme\/config\/_dimensions.scss": {
+	"\/src\/scss\/mg-theme\/theme\/config\/_dimensions.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/scss\/theme\/config\/_dimensions.scss",
-		"outputAbbreviatedPath": "\/src\/scss\/theme\/css\/_dimensions.css",
+		"inputAbbreviatedPath": "\/src\/scss\/mg-theme\/theme\/config\/_dimensions.scss",
+		"outputAbbreviatedPath": "\/src\/scss\/mg-theme\/theme\/css\/_dimensions.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -443,15 +443,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/scss\/theme\/config\/_fonts.scss": {
+	"\/src\/scss\/mg-theme\/theme\/config\/_fonts.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/scss\/theme\/config\/_fonts.scss",
-		"outputAbbreviatedPath": "\/src\/scss\/theme\/css\/_fonts.css",
+		"inputAbbreviatedPath": "\/src\/scss\/mg-theme\/theme\/config\/_fonts.scss",
+		"outputAbbreviatedPath": "\/src\/scss\/mg-theme\/theme\/css\/_fonts.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -459,15 +459,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/scss\/theme\/config\/_images.scss": {
+	"\/src\/scss\/mg-theme\/theme\/config\/_images.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/scss\/theme\/config\/_images.scss",
-		"outputAbbreviatedPath": "\/src\/scss\/theme\/css\/_images.css",
+		"inputAbbreviatedPath": "\/src\/scss\/mg-theme\/theme\/config\/_images.scss",
+		"outputAbbreviatedPath": "\/src\/scss\/mg-theme\/theme\/css\/_images.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -475,15 +475,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/scss\/theme\/config\/_settings.scss": {
+	"\/src\/scss\/mg-theme\/theme\/config\/_settings.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/scss\/theme\/config\/_settings.scss",
-		"outputAbbreviatedPath": "\/src\/scss\/theme\/css\/_settings.css",
+		"inputAbbreviatedPath": "\/src\/scss\/mg-theme\/theme\/config\/_settings.scss",
+		"outputAbbreviatedPath": "\/src\/scss\/mg-theme\/theme\/css\/_settings.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -491,15 +491,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/scss\/theme\/config\/_var.scss": {
+	"\/src\/scss\/mg-theme\/theme\/config\/_var.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/scss\/theme\/config\/_var.scss",
-		"outputAbbreviatedPath": "\/src\/scss\/theme\/css\/_var.css",
+		"inputAbbreviatedPath": "\/src\/scss\/mg-theme\/theme\/config\/_var.scss",
+		"outputAbbreviatedPath": "\/src\/scss\/mg-theme\/theme\/css\/_var.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -507,15 +507,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/scss\/theme\/custom\/modules\/_buttons.scss": {
+	"\/src\/scss\/mg-theme\/theme\/custom\/modules\/_buttons.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/scss\/theme\/custom\/modules\/_buttons.scss",
-		"outputAbbreviatedPath": "\/src\/scss\/theme\/custom\/css\/_buttons.css",
+		"inputAbbreviatedPath": "\/src\/scss\/mg-theme\/theme\/custom\/modules\/_buttons.scss",
+		"outputAbbreviatedPath": "\/src\/scss\/mg-theme\/theme\/custom\/css\/_buttons.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -523,15 +523,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/scss\/theme\/custom\/modules\/_hero.scss": {
+	"\/src\/scss\/mg-theme\/theme\/custom\/modules\/_hero.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/scss\/theme\/custom\/modules\/_hero.scss",
-		"outputAbbreviatedPath": "\/src\/scss\/theme\/custom\/css\/_hero.css",
+		"inputAbbreviatedPath": "\/src\/scss\/mg-theme\/theme\/custom\/modules\/_hero.scss",
+		"outputAbbreviatedPath": "\/src\/scss\/mg-theme\/theme\/custom\/css\/_hero.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -539,15 +539,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/scss\/theme\/custom\/modules\/_social.scss": {
+	"\/src\/scss\/mg-theme\/theme\/custom\/modules\/_social.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/scss\/theme\/custom\/modules\/_social.scss",
-		"outputAbbreviatedPath": "\/src\/scss\/theme\/custom\/css\/_social.css",
+		"inputAbbreviatedPath": "\/src\/scss\/mg-theme\/theme\/custom\/modules\/_social.scss",
+		"outputAbbreviatedPath": "\/src\/scss\/mg-theme\/theme\/custom\/css\/_social.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -555,15 +555,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/scss\/theme\/responsive\/_desktop.scss": {
+	"\/src\/scss\/mg-theme\/theme\/responsive\/_desktop.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/scss\/theme\/responsive\/_desktop.scss",
-		"outputAbbreviatedPath": "\/src\/scss\/theme\/css\/_desktop.css",
+		"inputAbbreviatedPath": "\/src\/scss\/mg-theme\/theme\/responsive\/_desktop.scss",
+		"outputAbbreviatedPath": "\/src\/scss\/mg-theme\/theme\/css\/_desktop.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -571,15 +571,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/scss\/theme\/responsive\/_ie.scss": {
+	"\/src\/scss\/mg-theme\/theme\/responsive\/_ie.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/scss\/theme\/responsive\/_ie.scss",
-		"outputAbbreviatedPath": "\/src\/scss\/theme\/css\/_ie.css",
+		"inputAbbreviatedPath": "\/src\/scss\/mg-theme\/theme\/responsive\/_ie.scss",
+		"outputAbbreviatedPath": "\/src\/scss\/mg-theme\/theme\/css\/_ie.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -587,15 +587,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/scss\/theme\/responsive\/_mobile.scss": {
+	"\/src\/scss\/mg-theme\/theme\/responsive\/_mobile.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/scss\/theme\/responsive\/_mobile.scss",
-		"outputAbbreviatedPath": "\/src\/scss\/theme\/css\/_mobile.css",
+		"inputAbbreviatedPath": "\/src\/scss\/mg-theme\/theme\/responsive\/_mobile.scss",
+		"outputAbbreviatedPath": "\/src\/scss\/mg-theme\/theme\/css\/_mobile.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -603,15 +603,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/scss\/theme\/responsive\/_tablet.scss": {
+	"\/src\/scss\/mg-theme\/theme\/responsive\/_tablet.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/scss\/theme\/responsive\/_tablet.scss",
-		"outputAbbreviatedPath": "\/src\/scss\/theme\/css\/_tablet.css",
+		"inputAbbreviatedPath": "\/src\/scss\/mg-theme\/theme\/responsive\/_tablet.scss",
+		"outputAbbreviatedPath": "\/src\/scss\/mg-theme\/theme\/css\/_tablet.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -619,15 +619,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/scss\/xtras\/_buy-links.scss": {
+	"\/src\/scss\/mg-theme\/xtras\/_buy-links.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/scss\/xtras\/_buy-links.scss",
-		"outputAbbreviatedPath": "\/src\/scss\/css\/_buy-links.css",
+		"inputAbbreviatedPath": "\/src\/scss\/mg-theme\/xtras\/_buy-links.scss",
+		"outputAbbreviatedPath": "\/src\/scss\/mg-theme\/css\/_buy-links.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -635,15 +635,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/scss\/xtras\/_docs.scss": {
+	"\/src\/scss\/mg-theme\/xtras\/_docs.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/scss\/xtras\/_docs.scss",
-		"outputAbbreviatedPath": "\/src\/scss\/css\/_docs.css",
+		"inputAbbreviatedPath": "\/src\/scss\/mg-theme\/xtras\/_docs.scss",
+		"outputAbbreviatedPath": "\/src\/scss\/mg-theme\/css\/_docs.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -651,15 +651,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/scss\/xtras\/_fuck.scss": {
+	"\/src\/scss\/mg-theme\/xtras\/_fuck.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/scss\/xtras\/_fuck.scss",
-		"outputAbbreviatedPath": "\/src\/scss\/css\/_fuck.css",
+		"inputAbbreviatedPath": "\/src\/scss\/mg-theme\/xtras\/_fuck.scss",
+		"outputAbbreviatedPath": "\/src\/scss\/mg-theme\/css\/_fuck.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -667,15 +667,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/scss\/xtras\/_media-wall.scss": {
+	"\/src\/scss\/mg-theme\/xtras\/_media-wall.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/scss\/xtras\/_media-wall.scss",
-		"outputAbbreviatedPath": "\/src\/scss\/css\/_media-wall.css",
+		"inputAbbreviatedPath": "\/src\/scss\/mg-theme\/xtras\/_media-wall.scss",
+		"outputAbbreviatedPath": "\/src\/scss\/mg-theme\/css\/_media-wall.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -683,15 +683,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/scss\/xtras\/_tour.scss": {
+	"\/src\/scss\/mg-theme\/xtras\/_tour.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/scss\/xtras\/_tour.scss",
-		"outputAbbreviatedPath": "\/src\/scss\/css\/_tour.css",
+		"inputAbbreviatedPath": "\/src\/scss\/mg-theme\/xtras\/_tour.scss",
+		"outputAbbreviatedPath": "\/src\/scss\/mg-theme\/css\/_tour.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

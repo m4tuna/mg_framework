@@ -1,7 +1,7 @@
 /**
 
   @app
-  MG_Framework v 0.7
+  MG_Framework v 0.8
 ---------------------------------------------------------
 
   Author: Mike Fortuna
@@ -11,13 +11,13 @@
 --------------------------------------------------------- */
 
 //-theme config
-@import "theme/config/var";
-@import "theme/config/colors";
-@import "theme/config/animations";
-@import "theme/config/fonts";
-@import "theme/config/images";
-@import "theme/config/dimensions";
-@import "theme/config/settings";
+@import "mg-theme/theme/config/var";
+@import "mg-theme/theme/config/colors";
+@import "mg-theme/theme/config/animations";
+@import "mg-theme/theme/config/fonts";
+@import "mg-theme/theme/config/images";
+@import "mg-theme/theme/config/dimensions";
+@import "mg-theme/theme/config/settings";
 
 //-mg-core base
 @import "mg-core/base/helpers";
@@ -49,12 +49,17 @@
 @import "mg-core/modules/table";
 
 //-theme custom styles
-@import "theme/custom/modules/buttons";
-@import "theme/custom/modules/hero";
-@import "theme/custom/modules/social";
+@import "mg-theme/theme/custom/modules/buttons";
+@import "mg-theme/theme/custom/modules/hero";
+@import "mg-theme/theme/custom/modules/social";
+
+//-theme xtra modules
+@import "mg-theme/xtras/buy-links";
+@import "mg-theme/xtras/media-wall";
+@import "mg-theme/xtras/tour";
 
 //-theme responsive
-@import "theme/responsive/mobile";
-@import "theme/responsive/tablet";
-@import "theme/responsive/desktop";
-@import "theme/responsive/ie";
+@import "mg-theme/theme/responsive/mobile";
+@import "mg-theme/theme/responsive/tablet";
+@import "mg-theme/theme/responsive/desktop";
+@import "mg-theme/theme/responsive/ie";
