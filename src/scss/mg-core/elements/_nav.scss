@@ -21,6 +21,7 @@ nav {
       font-size: $nav-fsz;
       font-weight: $main-fw;
       font-family:$nav-link-font;
+      @include transition-all($nav-hover-time);
     }
   }
 }
