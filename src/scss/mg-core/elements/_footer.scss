@@ -23,6 +23,9 @@ footer {
   @if $footer-list-inline == true {
     @extend %list-inline;
   }
+  .copy {
+    padding: $copyright-padding;
+  }
   p {
     font-family:$footer-font;
     font-size:$footer-fsz;
