@@ -18,5 +18,8 @@
     &.tw, &.yt {
       padding:$social-extras-padding;
     }
+    &:hover {
+      color:$social-hover-color;
+    }
   }
 }
