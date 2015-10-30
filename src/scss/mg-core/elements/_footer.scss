@@ -16,6 +16,7 @@ footer {
   background-position: $footer-bg-position;
   background-size:$footer-bg-size;
   line-height: $footer-lh;
+  text-transform: $footer-tt;
   @if $footer-list-reset == true {
     @extend %list-reset;
   }
