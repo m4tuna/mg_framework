@@ -54,10 +54,18 @@
   @if $full-width-footer-mobile == true {
     footer {
       text-align: center;
+      height:180px;
+      .copy p {
+        line-height: 20px;
+      }
       @for $i from 1 through $grid-columns {
         .column-#{$i} {
           width: 100%;
         }
+      }
+      .logos img {
+        display:block;
+        margin: 0 auto;
       }
     }
   }

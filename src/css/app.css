@@ -66,11 +66,11 @@
 [class*='column-'].left {
   text-align: left; }
 
-header, #buy {
+header, footer, #buy {
   list-style-type: none; }
-  header li, #buy li {
+  header li, footer li, #buy li {
     display: inline; }
-    header li a, #buy li a {
+    header li a, footer li a, #buy li a {
       text-decoration: none; }
 
 .btn.block {
@@ -78,9 +78,9 @@ header, #buy {
   clear: both;
   width: 100%; }
 
-header, .social, #buy {
+header, footer, .social, #buy {
   list-style-type: none; }
-  header li a, .social li a, #buy li a {
+  header li a, footer li a, .social li a, #buy li a {
     text-decoration: none; }
 
 body {
@@ -444,17 +444,20 @@ footer {
   height: 70px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: "normal";
-  font-size: 8px;
+  font-size: 12px;
   color: #fff;
   background: #000;
   background-image: url("");
   background-attachment: none;
   background-position: 0 0;
   background-size: cover;
-  line-height: 12px; }
+  line-height: 12px;
+  text-transform: uppercase; }
+  footer .copy p {
+    padding: 30px 0; }
   footer p {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 8px;
+    font-size: 12px;
     line-height: 12px; }
   footer a {
     color: #fff; }
