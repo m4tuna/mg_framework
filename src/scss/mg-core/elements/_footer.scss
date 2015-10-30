@@ -23,7 +23,7 @@ footer {
   @if $footer-list-inline == true {
     @extend %list-inline;
   }
-  .copy {
+  .copy p {
     padding: $copyright-padding;
   }
   p {
