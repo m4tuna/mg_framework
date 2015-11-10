@@ -816,7 +816,10 @@ table {
 
 @media only screen and (max-width: 737px) {
   .nav-toggle {
-    display: block; }
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 20px; }
 
   .nav {
     display: none;
