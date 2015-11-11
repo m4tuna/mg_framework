@@ -21,8 +21,8 @@ body.mg-backdrop {
   margin:0 auto;
   top:4%;
   z-index:999;
-  width:500px;
-  height:auto;
+  width:$modal-width;
+  height:$modal-height;
   .close-btn {
     color:$var-white;
     float:right;
