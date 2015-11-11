@@ -1,0 +1,21 @@
+// ==========================================================================
+// Logo
+// ==========================================================================
+
+a.logo {
+  display: $logo-display;
+  height:$logo-height;
+  width:$logo-width;
+  margin:$logo-margin;
+  max-width:$logo-max-width;
+  background-image: url($logo-image);
+  background-attachment: $logo-bg-attachment;
+  background-position: $logo-bg-position;
+  background-size:$logo-bg-size;
+  @include transition-all($logo-hover-time);
+  @if $logo-hover-fade == true {
+    &:hover {
+      opacity:$logo-hover-opacity;
+    }
+  }
+}

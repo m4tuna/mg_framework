@@ -1,0 +1,35 @@
+// ==========================================================================
+// Modals
+// ==========================================================================
+
+body.mg-backdrop {
+  overflow:hidden;
+  .mg-cloak {
+    background:$backdrop;
+    position:fixed;
+    height:100%;
+    width:100%;
+    z-index:888;
+    overflow-x:auto;
+  }
+}
+
+.mg-modal {
+  position:fixed;
+  left:0;
+  right:0;
+  margin:0 auto;
+  top:4%;
+  z-index:999;
+  width:500px;
+  height:auto;
+  .close-btn {
+    color:$var-white;
+    float:right;
+    position:absolute;
+    top:5px;
+    right:10px;
+    font-weight:900;
+    font-family:$sans;
+  }
+}
