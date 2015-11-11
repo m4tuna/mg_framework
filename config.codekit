@@ -361,22 +361,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/mg-core\/base\/modules\/_modals.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/mg-core\/base\/modules\/_modals.scss",
-		"outputAbbreviatedPath": "\/scss\/mg-core\/base\/css\/_modals.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
 	"\/scss\/mg-core\/base\/modules\/_sidebar.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
