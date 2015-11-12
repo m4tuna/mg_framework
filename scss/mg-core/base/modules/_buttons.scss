@@ -1,0 +1,19 @@
+// ==========================================================================
+// Buttons
+// ==========================================================================
+
+// Buttons
+
+.btn {
+  padding:$btn-padding;
+  color:$btn-text-color;
+  font-family:$btn-font;
+  text-decoration: none;
+  border-radius: $btn-border-radius;
+  border-style:$btn-border-style;
+  border-color:$btn-border-color;
+  border-size:$btn-border-size;
+  text-align: center;
+  cursor:pointer;
+  @include transition-all($btn-hover-time);
+}

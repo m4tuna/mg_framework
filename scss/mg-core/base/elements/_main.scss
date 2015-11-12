@@ -1,0 +1,21 @@
+// ==========================================================================
+// Main
+// ==========================================================================
+
+main {
+  font-family:$main-fsz;
+  font-weight: $main-fw;
+  font-size: $main-fsz;
+  color: $main-text-color;
+  background: $main-bg-color;
+  background-image: url($main-bg-image);
+  background-attachment: $main-bg-attachment;
+  background-position: $main-bg-position;
+  background-size:$main-bg-size;
+  .row {
+    padding: $main-row-padding;
+  }
+  [class*='column-'] {
+    padding: $main-col-padding;
+  }
+}
