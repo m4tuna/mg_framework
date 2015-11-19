@@ -1,22 +1,40 @@
 # mg_framework version 0.9
 
-### basics
+### basic setup
 
 A structured SASS framework allowing simple modification of theme settings to toggle various styles of the mg-core modules and HTML5 elements. This repository automatically pulls in the latest version of mg-core (https://github.com/m4tuna/mg-core).
   
 `git clone git@github.com:m4tuna/mg_framework.git`
 
+
 Use scss/app.scss to compile your project settings with mg-core, you can add or remove the various modules depending on what you need for the current project. 
 
-## mg-music modules
+## mg-theme
 
-MG-music is a collection of modules for use with various music clients. Includes modules like buy buttons, tour date widget styling and media wall styles.
+mg-theme is where you will find the primary project-level configuration for the mg_framework.
 
-## mg-ionic modules
+### config
 
-Mg-ionic is a collection of modules for use with ionic to build mobile applications. For more on ionic: https://github.com/driftyco/ionic
+Within mg-theme you will find the config folder. This is where you can define options for `animations` `colors` `dimensions` `fonts` `images` `settings` and `var`. More granular documentation to describe these files is in progress.
 
-## mixins
+### custom
 
-## helper classes
+The mg-theme/custom folder is where you can add custom modules. Be sure to include them in your main `app.scss` before compiling.
 
+### responsive
+
+The mg-theme/responsive folder contains media queries for `mobile` `tablet` `desktop` and `ie`. These breakpoints are defined in the `var` file in config.
+
+## mg-music
+
+mg-music is a collection of modules for use with various music clients. Includes modules like buy buttons, tour date widget styling and media wall styles.
+
+## mg-ionic
+
+mg-ionic is a collection of modules for use with ionic to build mobile applications. For more on ionic: https://github.com/driftyco/ionic
+
+## mg-core
+
+### mixins
+### animations
+### helper classes
