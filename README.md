@@ -35,6 +35,8 @@ mg-ionic is a collection of modules for use with ionic to build mobile applicati
 
 ## mg-core
 
+Documentation in progress for the following: 
+
 ### mixins
 ### animations
 ### helper classes
