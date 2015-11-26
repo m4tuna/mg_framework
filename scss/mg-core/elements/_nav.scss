@@ -20,6 +20,7 @@ nav {
     a {
       color:$nav-link-color;
       font-size: $nav-fsz;
+      line-height: $nav-fsz+2;
       font-weight: $main-fw;
       font-family:$nav-link-font;
       @include transition-all($nav-hover-time);

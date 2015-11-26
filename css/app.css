@@ -67,6 +67,8 @@ header, footer, #buy {
   list-style-type: none; }
   header li, footer li, #buy li {
     display: inline; }
+    header li a, footer li a, #buy li a {
+      text-decoration: none; }
 
 .btn.block {
   display: block;
@@ -319,6 +321,10 @@ body {
     color: #fff; }
     body a:hover {
       color: #000; }
+  body p {
+    font-family: 14px;
+    font-weight: "normal";
+    font-size: 14px; }
 
 img {
   width: auto;
@@ -336,6 +342,7 @@ header {
   background-position: 0 0;
   background-size: cover;
   font-size: 14px;
+  line-height: 16px;
   font-weight: "normal";
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #fff;
@@ -364,13 +371,15 @@ nav {
   background-size: cover; }
   nav li {
     background-color: transparent;
-    padding: 0 0; }
+    padding: 0 0;
+    color: #fff; }
     nav li iframe {
       position: relative;
       top: 7px; }
     nav li a {
       color: #fff;
       font-size: 14px;
+      line-height: 16px;
       font-weight: "normal";
       font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
       -webkit-transition: all 0.5s ease;
@@ -387,12 +396,14 @@ main {
   font-family: 14px;
   font-weight: "normal";
   font-size: 14px;
+  line-height: 16px;
   color: #fff;
   background: transparent;
   background-image: url("");
   background-attachment: none;
   background-position: 0 0;
-  background-size: cover; }
+  background-size: cover;
+  clear: both; }
   main .row {
     padding: 1em; }
   main [class*='column-'] {
@@ -440,20 +451,20 @@ footer {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: "normal";
   font-size: 12px;
+  line-height: 14px;
   color: #fff;
   background: #000;
   background-image: url("");
   background-attachment: none;
   background-position: 0 0;
   background-size: cover;
-  line-height: 12px;
   text-transform: uppercase; }
   footer .copy p {
     padding: 30px 0; }
   footer p {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 12px;
-    line-height: 12px; }
+    line-height: 14px; }
   footer a {
     color: #fff; }
     footer a:hover {
@@ -464,7 +475,7 @@ footer {
     padding: 1em; }
 
 html, body {
-  height: 100%; }
+  min-height: 100%; }
 
 main {
   min-height: 100%;
@@ -547,9 +558,9 @@ h6 {
   .hero.row {
     padding: 100px 0; }
 
-body.fix-body {
+body.mg-backdrop {
   overflow: hidden; }
-  body.fix-body .mg-backdrop {
+  body.mg-backdrop .mg-cloak {
     background: rgba(0, 0, 0, 0.65);
     position: fixed;
     height: 100%;
@@ -565,7 +576,7 @@ body.fix-body {
   top: 4%;
   z-index: 999;
   width: 500px;
-  height: auto; }
+  height: 500px; }
   .mg-modal .close-btn {
     color: #fff;
     float: right;
@@ -585,7 +596,9 @@ input[type="text"], select {
   display: none; }
 
 .social {
-  margin: 20px 10px 0; }
+  margin: 20px 10px 0;
+  font-size: 30px;
+  line-height: 32px; }
   .social iframe {
     position: relative;
     top: 8px; }
@@ -594,6 +607,8 @@ input[type="text"], select {
     color: #000;
     padding: 5px 10px;
     border-radius: 2px;
+    font-size: 30px;
+    line-height: 32px;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     transition: all 0.5s ease; }

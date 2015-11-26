@@ -23,6 +23,14 @@ $tablet-portrait: "only screen and (min-width: 30em) and (orientation : portrait
 $ie9-only: "only screen and (min-width:0\0)";
 $ie10-up: "all and (-ms-high-contrast: none), (-ms-high-contrast: active)";
 
+//-font family
+$sans: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+$open-sans: 'Open Sans', sans-serif;
+$lato: 'Lato', sans-serif;
+
+//-default font
+$default-font: $sans;
+
 //-standard colors
 $mg-black: #000;
 $mg-blue: #495B7E;
@@ -45,18 +53,9 @@ $light-green: #E3FFE6;
 $light-orange: #f8d148;
 
 //-other colors
-$two-orange: #f8d148;
 $off-white: #f4f6f8;
 $fb-blue: #495699;
 $tw-blue: #4099ff;
 $yt-red: #a8462a;
 $insta-blue: #455b84;
 $walmart-blue: #007cc2;
-
-//-font family
-$sans: 'Helvetica Neue',Helvetica,Arial,sans-serif;
-$open-sans: 'Open Sans', sans-serif;
-$lato: 'Lato', sans-serif;
-
-//-default font
-$default-font: $sans;

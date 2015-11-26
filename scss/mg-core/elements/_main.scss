@@ -6,6 +6,7 @@ main {
   font-family:$main-fsz;
   font-weight: $main-fw;
   font-size: $main-fsz;
+  line-height: $main-fsz+2;
   color: $main-text-color;
   background: $main-bg-color;
   background-image: url($main-bg-image);

@@ -11,6 +11,7 @@ header {
   background-position: $header-bg-position;
   background-size:$header-bg-size;
   font-size:$header-fsz;
+  line-height: $header-fsz+2;
   font-weight:$header-fw;
   font-family:$header-font;
   color:$header-text-color;
