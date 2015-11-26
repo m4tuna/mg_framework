@@ -255,7 +255,7 @@ input[type="submit"] {
 .wrapper {
   width: 100%;
   padding: 0 2em;
-  max-width: 57em;
+  max-width: 85em;
   margin-left: auto;
   margin-right: auto; }
 
@@ -633,17 +633,21 @@ input[type="text"], select {
 table {
   width: 100%;
   border-collapse: collapse; }
+  table tr {
+    background: #fff;
+    color: #000; }
   table tr:nth-of-type(odd) {
-    background: #fff; }
+    background: #a6a6a6;
+    color: #fff; }
   table th {
     background: #333;
-    color: white;
+    color: #fff;
     font-weight: bold; }
   table td, table th {
     padding: 6px;
     border: 1px solid #C5C5C5;
     text-align: left; }
-  table.settings td:first-chqild {
+  table.settings td:first-child {
     font-weight: bold; }
 
 @media only screen and (max-width: 1024px) {
@@ -658,13 +662,16 @@ table {
     left: -9999px; }
 
   table tr {
-    border: 1px solid #ccc; }
+    border: 1px solid #ccc;
+    background: #fff; }
   table td {
     /* Behave  like a "row" */
     border: none;
     border-bottom: 1px solid #eee;
     position: relative;
-    padding-left: 50%; }
+    padding-left: 50%;
+    color: #000;
+    /* background:none; */ }
     table td:before {
       /* Now like a table header */
       position: absolute;
@@ -674,6 +681,12 @@ table {
       width: 45%;
       padding-right: 10px;
       white-space: nowrap; }
+  table td:nth-of-type(1):before {
+    content: "First Name"; }
+  table td:nth-of-type(2):before {
+    content: "Last Name"; }
+  table td:nth-of-type(3):before {
+    content: "Job Title"; }
   table.demo {
     /* Label the data */ }
     table.demo td:nth-of-type(1):before {
@@ -841,6 +854,9 @@ table {
 @media only screen and (max-width: 737px) {
   body {
     background-position: center; }
+
+  header h1 {
+    font-size: 20px; }
 
   footer {
     font-size: 10px;

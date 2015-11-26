@@ -6,12 +6,17 @@
 table {
   width: 100%;
   border-collapse: collapse;
+  tr {
+    background: $table-tr-bg;
+    color: $table-tr-color;
+  }
   tr:nth-of-type(odd) {
-    background: $mg-white;
+    background: $table-tr-odd-bg;
+    color: $table-tr-odd-color;
   }
   th {
     background: #333;
-    color: white;
+    color: $table-header-color;
     font-weight: bold;
   }
   td, th {
@@ -20,7 +25,7 @@ table {
     text-align: left;
   }
   &.settings {
-    td:first-chqild {
+    td:first-child {
       font-weight:bold;
     }
   }
@@ -41,7 +46,10 @@ table {
 	}
 
   table {
-    tr { border: 1px solid #ccc; }
+    tr {
+      border: 1px solid #ccc;
+      background:$table-tr-bg;
+    }
 
   	td {
   		/* Behave  like a "row" */
@@ -49,6 +57,8 @@ table {
   		border-bottom: 1px solid #eee;
   		position: relative;
   		padding-left: 50%;
+      color:$mg-black;
+      /* background:none; */
       &:before {
     		/* Now like a table header */
     		position: absolute;
@@ -60,6 +70,9 @@ table {
     		white-space: nowrap;
     	}
   	}
+    td:nth-of-type(1):before { content: "First Name"; }
+    td:nth-of-type(2):before { content: "Last Name"; }
+    td:nth-of-type(3):before { content: "Job Title"; }
     &.demo {
       /* Label the data */
     	td:nth-of-type(1):before { content: "First Name"; }
