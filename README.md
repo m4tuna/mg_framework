@@ -99,7 +99,6 @@ ex:
 ```
 .my-class {
   @extend %left;
-  @extend %float-right;
 }
 ```
 
