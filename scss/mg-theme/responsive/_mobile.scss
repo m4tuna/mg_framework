@@ -19,14 +19,43 @@
     background-position: center;
   }
 
+  //footer
+  footer {
+    font-size:($footer-fsz)-2;
+    margin:20px 0 0;
+    p {
+      font-size:($footer-fsz)-2;
+    }
+    img {
+      margin:15px auto;
+    }
+  }
+
   //hero bg
   #hero {
     background-position: center;
   }
 
+  //buy
+  #buy {
+    width: 90%;
+  }
+
   // hide classes
   .hide-mobile, .hide-mobile-inline {
     display:none;
+  }
+
+  #social {
+    a {
+      line-height:$social-fsz*2;
+    }
+    iframe {
+      display:block;
+      clear:both;
+      margin:10px auto;
+      text-align: center;
+    }
   }
 
   // mobile nav styles
@@ -37,12 +66,13 @@
       right: 20px;
       top: 20px;
     }
-    .nav {
+    nav {
       display:none;
-      @include position(fixed, $top: $header-height, $left: 0);
-      height:$mobile-nav-height;
+      @include position(fixed, $top: $mobile-nav-height, $left: 0);
+      height:auto;
       background:$mobile-nav-color;
       padding:$mobile-nav-padding;
+      margin: 0;
       width:100%;
       text-align: center;
       a {

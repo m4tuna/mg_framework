@@ -628,7 +628,7 @@ input[type="text"], select {
     #social a.tw, #social a.yt {
       padding: 5px 9px; }
     #social a:hover {
-      color: #fff; }
+      color: #495B7E; }
 
 table {
   width: 100%;
@@ -842,11 +842,30 @@ table {
   body {
     background-position: center; }
 
+  footer {
+    font-size: 10px;
+    margin: 20px 0 0; }
+    footer p {
+      font-size: 10px; }
+    footer img {
+      margin: 15px auto; }
+
   #hero {
     background-position: center; }
 
+  #buy {
+    width: 90%; }
+
   .hide-mobile, .hide-mobile-inline {
     display: none; }
+
+  #social a {
+    line-height: 60px; }
+  #social iframe {
+    display: block;
+    clear: both;
+    margin: 10px auto;
+    text-align: center; }
 
   .nav-toggle {
     display: block;
@@ -854,7 +873,7 @@ table {
     right: 20px;
     top: 20px; }
 
-  .nav {
+  nav {
     display: none;
     position: fixed;
     top: 75px;
@@ -862,14 +881,15 @@ table {
     height: auto;
     background: #000;
     padding: 0 0 15px;
+    margin: 0;
     width: 100%;
     text-align: center; }
-    .nav a {
+    nav a {
       color: #fff;
       font-size: 20px; }
-      .nav a:hover {
+      nav a:hover {
         color: #a6a6a6; }
-    .nav li a {
+    nav li a {
       display: block; }
 
   main .column-1 {
@@ -930,6 +950,9 @@ table {
   body {
     background-position: center; }
 
+  footer p {
+    font-size: 14px; }
+
   #hero {
     background-position: center; }
 
@@ -939,22 +962,22 @@ table {
   .nav-toggle {
     display: block; }
 
-  .nav {
+  nav {
     display: none;
     position: fixed;
     top: 75px;
     left: 0;
-    height: auto;
+    height: 75px;
     background: #000;
     padding: 0 0 15px;
     width: 100%;
     text-align: center; }
-    .nav a {
+    nav a {
       color: #fff;
       font-size: 20px; }
-      .nav a:hover {
+      nav a:hover {
         color: #a6a6a6; }
-    .nav li a {
+    nav li a {
       display: block; } }
 @media only screen and (min-width: 30em) and (orientation: portrait) {
   .hide-mobile, .hide-mobile-inline {

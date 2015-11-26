@@ -19,6 +19,13 @@
     background-position: center;
   }
 
+  //footer
+  footer {
+    p {
+      font-size:$footer-fsz+2;
+    }
+  }
+
   //hero bg
   #hero {
     background-position: center;
@@ -34,7 +41,7 @@
     .nav-toggle {
       display:block;
     }
-    .nav {
+    nav {
       display:none;
       @include position(fixed, $top: $header-height, $left: 0);
       height:$mobile-nav-height;
