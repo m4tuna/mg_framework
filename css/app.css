@@ -38,9 +38,6 @@
 .btn.btn-orange {
   background-color: #ff9e04; }
 
-.btn.btn-light-blue {
-  background-color: #588bcd; }
-
 /**
 
   MG_Core v 1.0
@@ -70,8 +67,6 @@ header, footer, #buy {
   list-style-type: none; }
   header li, footer li, #buy li {
     display: inline; }
-    header li a, footer li a, #buy li a {
-      text-decoration: none; }
 
 .btn.block {
   display: block;
@@ -349,7 +344,7 @@ header {
   header a {
     color: #fff; }
     header a:hover {
-      color: #a6a6a6; }
+      color: #000; }
   header [class*='column-'] {
     padding: 10px; }
 
@@ -374,7 +369,7 @@ nav {
       position: relative;
       top: 7px; }
     nav li a {
-      color: #000;
+      color: #fff;
       font-size: 14px;
       font-weight: "normal";
       font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -416,7 +411,7 @@ section {
   section a {
     color: #fff; }
     section a:hover {
-      color: #a6a6a6; }
+      color: #000; }
 
 article {
   font-family: 14px;
@@ -431,7 +426,7 @@ article {
   article a {
     color: #fff; }
     article a:hover {
-      color: #a6a6a6; }
+      color: #000; }
 
 code {
   vertical-align: middle;
@@ -462,7 +457,7 @@ footer {
   footer a {
     color: #fff; }
     footer a:hover {
-      color: #495B7E; }
+      color: #000; }
   footer .wrapper {
     margin: 0 auto; }
   footer [class*='column-'] {
@@ -515,27 +510,27 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 45px;
-  color: #000; }
+  color: #fff; }
 
 h2 {
   font-size: 35px;
-  color: #000; }
+  color: #fff; }
 
 h3 {
   font-size: 25px;
-  color: #000; }
+  color: #fff; }
 
 h4 {
   font-size: 20px;
-  color: #000; }
+  color: #fff; }
 
 h5 {
   font-size: 18px;
-  color: #000; }
+  color: #fff; }
 
 h6 {
   font-size: 15px;
-  color: #000; }
+  color: #fff; }
 
 .hero {
   width: 100%;
@@ -552,9 +547,9 @@ h6 {
   .hero.row {
     padding: 100px 0; }
 
-body.mg-backdrop {
+body.fix-body {
   overflow: hidden; }
-  body.mg-backdrop .mg-cloak {
+  body.fix-body .mg-backdrop {
     background: rgba(0, 0, 0, 0.65);
     position: fixed;
     height: 100%;
@@ -812,9 +807,12 @@ table {
       text-align: center;
       text-transform: uppercase; }
       #tour td.bit-tickets a:hover {
-        background: #f8d688; }
+        background: #614126; }
 
 @media only screen and (max-width: 737px) {
+  .hide-mobile, .hide-mobile-inline {
+    display: none; }
+
   .nav-toggle {
     display: block;
     position: absolute;
@@ -835,7 +833,7 @@ table {
       color: #fff;
       font-size: 20px; }
       .nav a:hover {
-        color: #a6a6a6; }
+        color: #000; }
     .nav li a {
       display: block; }
 
@@ -892,11 +890,11 @@ table {
       width: 100%; }
 
   footer [class*='column-'] {
-    padding: 0; }
-
-  .hide-mobile, .hide-mobile-inline {
-    display: none; } }
+    padding: 0; } }
 @media only screen and (min-width: 738px) and (max-width: 1027px) {
+  .hide-tablet, .hide-tablet-inline, .only-mobile, .only-desktop {
+    display: none; }
+
   .nav-toggle {
     display: block; }
 
@@ -914,15 +912,18 @@ table {
       color: #fff;
       font-size: 20px; }
       .nav a:hover {
-        color: #a6a6a6; }
+        color: #000; }
     .nav li a {
-      display: block; }
-
-  .hide-tablet, .hide-tablet-inline {
-    display: none; } }
+      display: block; } }
 @media only screen and (min-width: 30em) and (orientation: portrait) {
   .hide-mobile, .hide-mobile-inline {
-    display: none; } }
+    display: none; }
+
+  .only-mobile {
+    display: block; }
+
+  .only-mobile-inline {
+    display: inline-block; } }
 @media only screen and (min-width: 1029px) {
   ul.nav {
     display: block !important; }
@@ -930,11 +931,14 @@ table {
   .hide-mobile {
     display: block; }
 
-  .hide-mobile-inline {
+  .hide-mobile-inline, .only-desktop-inline {
     display: inline-block; }
 
-  .hide-tablet {
+  .hide-tablet, .only-desktop {
     display: block; }
+
+  .only-mobile, .only-mobile-inline {
+    display: none; }
 
   .hide-tablet-inline {
     display: inline-block; } }

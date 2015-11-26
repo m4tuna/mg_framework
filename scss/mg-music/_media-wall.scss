@@ -7,35 +7,35 @@
   .content {
     p {
        font-size:14px;
-       color:$var-blue;
+       color:$mg-blue;
        font-family:$default-font;
        font-weight: 500;
        line-height: 20px;
     }
     .content-default a {
-      color:$var-purple;
+      color:$mg-purple;
     }
   }
   a.content-author-avatar, .content-author-username {
     display:none;
   }
   .content-author-name a {
-    color:$var-blue;
+    color:$mg-blue;
     font-family:$default-font;
     text-shadow:none;
   }
   .hub-list-more {
-    border:1px solid $var-purple;
-    color:$var-purple;
+    border:1px solid $mg-purple;
+    color:$mg-purple;
     font-family:$default-font;
     text-transform: uppercase;
     letter-spacing:2px;
     width: 200px;
     padding: 12px 0;
     &:hover {
-      border:1px solid $var-purple;
-      color:$var-white;
-      background:$var-purple;
+      border:1px solid $mg-purple;
+      color:$mg-white;
+      background:$mg-purple;
     }
   }
   .content-default.content-with-image .content-header {

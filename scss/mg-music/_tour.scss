@@ -7,7 +7,7 @@
   margin:0 auto;
   table {
     margin-top: 3em;
-    border-bottom: 2px solid $var-black !important;
+    border-bottom: 2px solid $mg-black !important;
     padding-bottom:5px;
   }
   #bit-events {
@@ -22,8 +22,8 @@
     &.bit-description-links, &.bit-date, &.bit-venue,
     &.bit-location, &.bit-artist-event-link, &.bit-tickets {
       margin-top:4em;
-      border-top: 2px solid $var-black;
-      border-bottom: 2px solid $var-black;
+      border-top: 2px solid $mg-black;
+      border-bottom: 2px solid $mg-black;
       padding:1em 0;
     }
     &.bit-venue, &.bit-date, &.bit-location, &.bit-tickets {
@@ -42,7 +42,7 @@
       font-weight: bold;
     }
     &.bit-date {
-      color:$var-red;
+      color:$mg-red;
       font-family:$lato;
       font-weight:800;
       width: 90px;
@@ -62,7 +62,7 @@
         text-align: center;
         text-transform: uppercase;
         background:$light-purple;
-        color:$var-white !important;
+        color:$mg-white !important;
         font-family:  $lato;
         border-radius:4px;
         padding:5px 12px;
@@ -81,14 +81,14 @@
 
       a {
         background:$light-brown;
-        color:$var-white;
+        color:$mg-white;
         font-family:  $lato;
         border-radius:4px;
         padding:5px 12px;
         text-align: center;
         text-transform: uppercase;
         &:hover {
-          background:$lighter-brown;
+          background:$mg-brown;
         }
       }
     }

@@ -5,21 +5,33 @@
 
 @media #{$desktop} {
 
+  // ==========================================================================
+
+    // custom desktop styles
+
+
+  // ==========================================================================
+
   ul.nav {
     //shows nav even after jQuery closes it and browser is resized back
     display:block !important;
   }
 
+  // hide and show classes
   .hide-mobile {
     display:block;
   }
 
-  .hide-mobile-inline {
+  .hide-mobile-inline, .only-desktop-inline {
     display:inline-block;
   }
 
-  .hide-tablet {
+  .hide-tablet, .only-desktop {
     display:block;
+  }
+
+  .only-mobile, .only-mobile-inline {
+    display:none;
   }
 
   .hide-tablet-inline {

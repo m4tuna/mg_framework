@@ -5,6 +5,22 @@
 
 @media #{$mobile} {
 
+// ==========================================================================
+
+  // custom mobile styles
+
+
+
+
+// ==========================================================================
+
+
+  // hide classes
+  .hide-mobile, .hide-mobile-inline {
+    display:none;
+  }
+
+  // mobile nav styles
   @if $mobile-nav == true {
     .nav-toggle {
       display: block;
@@ -32,7 +48,7 @@
       }
     }
   }
-
+  // full width main setting
   @if $full-width-main-mobile == true {
     main {
       @for $i from 1 through $grid-columns {
@@ -43,6 +59,7 @@
     }
   }
 
+  // full width header setting
   @if $full-width-header-mobile == true {
     header {
       text-align: center;
@@ -54,6 +71,7 @@
     }
   }
 
+  // full width footer setting
   @if $full-width-footer-mobile == true {
     footer {
       text-align: center;
@@ -73,6 +91,7 @@
     }
   }
 
+  // reset footer col padding
   footer {
     [class*='column-'] {
       padding:0;
@@ -80,16 +99,31 @@
   }
 
 
-  .hide-mobile, .hide-mobile-inline {
-    display:none;
-  }
+}
 
+@media #{$mobile-sm} {
+  // ==========================================================================
+
+    // custom mobile-sm styles (iPhone4 and other small phones)
+
+
+  // ==========================================================================
 }
 
 @media #{$mobile-portrait} {
+  // ==========================================================================
 
+    // custom mobile-portrait styles
+
+
+  // ==========================================================================
 }
 
 @media #{$mobile-landscape} {
+  // ==========================================================================
 
+    // custom mobile-landscape styles
+
+
+  // ==========================================================================
 }

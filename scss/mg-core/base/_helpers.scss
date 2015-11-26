@@ -57,21 +57,6 @@
   text-align:left;
 }
 
-
-// FLOAT RIGHT
-// usage: @extend %float-right;
-
-%float-right {
-  float:right;
-}
-
-// FLOAT LEFT
-// usage: @extend %float-left;
-
-%float-left {
-  float:left;
-}
-
 // LIST INLINE
 // usage: @extend %list-inline;
 
@@ -79,9 +64,6 @@
   list-style-type:none;
   li {
     display:inline;
-    a {
-      text-decoration: none;
-    }
   }
 }
 
@@ -92,9 +74,6 @@
   list-style-type:none;
   li {
     display:block;
-    a {
-      text-decoration: none;
-    }
   }
 }
 

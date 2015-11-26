@@ -10,29 +10,29 @@
     @extend %block;
   }
   &.btn-white {
-    color: $var-black;
+    color: $mg-black;
     &:hover {
-      background: $var-black;
-      color: $var-white;
+      background: $mg-black;
+      color: $mg-white;
     }
   }
   &.btn-black {
-    color: $var-white;
+    color: $mg-white;
     &:hover {
-      background: $var-white;
-      color: $var-black;
+      background: $mg-white;
+      color: $mg-black;
     }
   }
   &.btn-orange {
     &:hover {
-      background: $var-white;
-      color: $var-black;
+      background: $mg-white;
+      color: $mg-black;
     }
   }
   &.btn-yellow {
     &:hover {
-      background: $var-white;
-      color: $var-black;
+      background: $mg-white;
+      color: $mg-black;
     }
   }
 }

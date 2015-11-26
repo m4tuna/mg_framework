@@ -4,94 +4,93 @@
 
 //-body
 $body-bg-color: $light-grey;
-$body-text-color: $var-black;
+$body-text-color: $mg-black;
 $backdrop: rgba(0, 0, 0, 0.65);
 
 //-global link
-$link-color: $var-white;
-$link-hover: $var-black;
+$link-color: $mg-white;
+$link-hover: $mg-black;
 
+//-nav
+$nav-bg-color: transparent;
+$nav-link-color: $mg-white;
+$nav-li-bg-color: transparent;
 
 //-logo text color
 $logo-color: null;
 
 //-headings
 $heading-color: null;
-$h1-color: $var-black;
-$h2-color: $var-black;
-$h3-color: $var-black;
-$h4-color: $var-black;
-$h5-color: $var-black;
-$h6-color: $var-black;
+$h1-color: $mg-white;
+$h2-color: $mg-white;
+$h3-color: $mg-white;
+$h4-color: $mg-white;
+$h5-color: $mg-white;
+$h6-color: $mg-white;
 
 //-header
-$header-bg-color: $var-black;
-$header-text-color: $var-white;
-$header-link-color: $var-white;
-$header-link-hover: $var-grey;
+$header-bg-color: $mg-black;
+$header-text-color: $mg-white;
+$header-link-color: $link-color;
+$header-link-hover: $link-hover;
+
+//-mobile nav
+$mobile-nav-color: $mg-black;
+$mobile-nav-link-color: $link-color;
+$mobile-nav-link-hover: $link-hover;
+
+
+//-hero
+$hero-bg-color: $mg-blue;
+$hero-text-color: $mg-white;
 
 //-main
 $main-bg-color: transparent;
-$main-text-color: $var-white;
-$main-link-color: $var-white;
-$main-link-hover: $var-grey;
+$main-text-color: $mg-white;
+$main-link-color: $link-color;
+$main-link-hover: $link-hover;
 
 //-section
-$section-bg-color: $var-black;
-$section-text-color: $var-white;
-$section-link-color: $var-white;
-$section-link-hover: $var-grey;
+$section-bg-color: $mg-black;
+$section-text-color: $mg-white;
+$section-link-color: $link-color;
+$section-link-hover: $link-hover;
 
 //-article
-$article-bg-color: $var-black;
-$article-text-color: $var-white;
-$article-link-color: $var-white;
-$article-link-hover: $var-grey;
-
-//-nav
-$nav-bg-color: transparent;
-$nav-link-color: $var-black;
-$nav-li-bg-color: transparent;
-
-//-mobile nav
-$mobile-nav-color: $var-black;
-$mobile-nav-link-color: $var-white;
-$mobile-nav-link-hover: $var-grey;
-
-//-hero
-$hero-bg-color: $var-blue;
-$hero-text-color: $var-white;
+$article-bg-color: $mg-black;
+$article-text-color: $mg-white;
+$article-link-color: $link-color;
+$article-link-hover: $link-hover;
 
 //-footer
-$footer-bg-color: $var-black;
-$footer-text-color: $var-white;
-$footer-link-color: $var-white;
-$footer-link-hover: $var-blue;
+$footer-bg-color: $mg-black;
+$footer-text-color: $mg-white;
+$footer-link-color: $link-color;
+$footer-link-hover: $link-hover;
 
 //-sidebar
-$sidebar-bg-color: $var-black;
-$sidebar-text-color: $var-white;
-$sidebar-link-color: $var-white;
-$sidebar-link-hover: $var-blue;
+$sidebar-bg-color: $mg-black;
+$sidebar-text-color: $mg-white;
+$sidebar-link-color: $link-color;
+$sidebar-link-hover: $link-hover;
 
 //-buttons
-$btn-text-color: $var-black;
+$btn-text-color: $mg-black;
 $btn-border-size: 2px;
 $btn-border-style: solid;
 $btn-border-color: transparent;
 
 //-buttons mapping
 $btn-colors: (
-  btn-black: $var-black,
-  btn-blue: $var-blue,
-  btn-white: $var-white,
-  btn-grey: $var-grey,
-  btn-pink: $var-pink,
-  btn-red: $var-red,
-  btn-yellow: $var-yellow,
-  btn-purple: $var-purple,
-  btn-orange: $var-orange,
-  btn-light-blue: $light-blue
+  btn-black: $mg-black,
+  btn-blue: $mg-blue,
+  btn-white: $mg-white,
+  btn-grey: $mg-grey,
+  btn-pink: $mg-pink,
+  btn-red: $mg-red,
+  btn-yellow: $mg-yellow,
+  btn-purple: $mg-purple,
+  btn-orange: $mg-orange
 );
 
 @each $btn-color, $color in $btn-colors {
@@ -101,15 +100,15 @@ $btn-colors: (
 }
 
 //-social icons
-$social-bg-color: $var-white;
-$social-text-color: $var-black;
-$social-hover-color: $var-white;
+$social-bg-color: $mg-white;
+$social-text-color: $mg-black;
+$social-hover-color: $mg-white;
 
 //-code
 $code-bg-color: rgba(193, 199, 208, .3);
 
 //-form
-$input-border: $var-grey;
-$error-border: $var-red;
+$input-border: $mg-grey;
+$error-border: $mg-red;
 $error-bg: $light-grey;
-$modal-bg-color: $var-white;
+$modal-bg-color: $mg-white;
