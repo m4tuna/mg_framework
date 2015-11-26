@@ -14,6 +14,10 @@ a.logo {
   background-position: $logo-bg-position;
   background-size:$logo-bg-size;
   color:$logo-color;
+  &.music {
+    background-image:url('../images/logo-music.png');
+    width:70px;
+  }
   @include transition-all($logo-hover-time);
   @if $logo-hover-fade == true {
     &:hover {

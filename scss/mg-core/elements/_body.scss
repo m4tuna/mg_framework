@@ -14,6 +14,9 @@ body {
   background-attachment: $body-bg-attachment;
   background-position: $body-bg-position;
   @include bg-size($body-bg-size);
+  &.music-demo {
+    background-image:url('../images/bg-music.jpg');
+  }
   @if $font-smoothing == true {
     @extend %font-smoothing;
   }

@@ -18,7 +18,7 @@
   <header>
     <div class="wrapper">
       <div class="column-8">
-        <h1><i class="fa fa-pencil"></i> mike_grid</h1>
+        <a href="#" class="logo"></a>
       </div>
       <div class="column-4">
         <a href="#" class="nav-toggle"><i class="fa fa-align-justify"></i></a>
@@ -39,6 +39,23 @@
   </div>
 
   <main>
+    <div id="hero">
+
+    </div>
+    <div id="grid" class="row center" data-columns>
+      <div class="column size-1of3">
+        <div>Item #1</div>
+        <div>Item #4</div>
+      </div>
+      <div class="column size-1of3">
+        <div>Item #2</div>
+        <div>Item #5</div>
+      </div>
+      <div class="column size-1of3">
+        <div>Item #3</div>
+        <div>Item #6</div>
+      </div>
+    </div>
     <div class="wrapper">
       <div class="row"></div>
       <table>
@@ -87,10 +104,7 @@
   </footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <script>
-    $('.nav-toggle').click(function() {
-      $('.nav').slideToggle();
-    });
-  </script>
+  <script type="text/javascript" src="js/vendor/salvattore.min.js"></script>
+  <script type="text/javascript" src="js/min/main-min.js"></script>
   </body>
 </html>

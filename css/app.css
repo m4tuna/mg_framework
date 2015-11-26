@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
 
   @app
@@ -318,6 +319,8 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+  body.music-demo {
+    background-image: url("../images/bg-music.jpg"); }
   body a {
     color: #fff; }
     body a:hover {
@@ -505,6 +508,9 @@ a.logo {
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   transition: all 0.5s ease; }
+  a.logo.music {
+    background-image: url("../images/logo-music.png");
+    width: 70px; }
   a.logo:hover {
     opacity: 0.7; }
 
@@ -629,6 +635,38 @@ input[type="text"], select {
       padding: 5px 9px; }
     #social a:hover {
       color: #495B7E; }
+
+#grid[data-columns]::before {
+  content: '3 .column.size-1of3'; }
+
+/* These are the classes that are going to be applied: */
+.column {
+  float: left; }
+
+.size-1of3 {
+  width: 33.333%; }
+
+@media screen and (max-width: 480px) {
+  #grid[data-columns]::before {
+    content: '1 .column.size-1of1'; } }
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  #grid[data-columns]::before {
+    content: '2 .column.size-1of2'; } }
+@media screen and (min-width: 769px) {
+  #grid[data-columns]::before {
+    content: '3 .column.size-1of3'; } }
+/* Again, you’re free to use and define the classes: */
+.column {
+  float: left; }
+
+.size-1of1 {
+  width: 100%; }
+
+.size-1of2 {
+  width: 50%; }
+
+.size-1of3 {
+  width: 33.333%; }
 
 table {
   width: 100%;

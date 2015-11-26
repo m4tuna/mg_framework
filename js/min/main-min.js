@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".nav-toggle").click(function(){$("nav").slideToggle(),console.log("hyello?")});var e=document.querySelector("#grid"),n=document.createElement("article");salvattore.appendElements(e,[n]),n.outerHTML="I’ve been appended!"});
