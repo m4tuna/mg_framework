@@ -1,0 +1,33 @@
+// ==========================================================================
+// Nav
+// ==========================================================================
+
+
+nav {
+  background-color:$nav-bg-color;
+  background-image: url($nav-bg-image);
+  background-attachment: $nav-bg-attachment;
+  background-position: $nav-bg-position;
+  background-size:$nav-bg-size;
+  li {
+    background-color:$nav-li-bg-color;
+    padding:$nav-link-padding;
+    iframe {
+      position: relative;
+      top: $iframe-top-fix;
+    }
+    a {
+      color:$nav-link-color;
+      font-size: $nav-fsz;
+      font-weight: $main-fw;
+      font-family:$nav-link-font;
+      @include transition-all($nav-hover-time);
+    }
+  }
+}
+.nav-toggle {
+  display:none;
+  float: $mobile-nav-float;
+  font-size: $nav-toggle-fsz;
+  margin: 0;
+}

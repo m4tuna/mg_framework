@@ -57,6 +57,21 @@
   text-align:left;
 }
 
+
+// FLOAT RIGHT
+// usage: @extend %float-right;
+
+%float-right {
+  float:right;
+}
+
+// FLOAT LEFT
+// usage: @extend %float-left;
+
+%float-left {
+  float:left;
+}
+
 // LIST INLINE
 // usage: @extend %list-inline;
 
@@ -64,6 +79,9 @@
   list-style-type:none;
   li {
     display:inline;
+    a {
+      text-decoration: none;
+    }
   }
 }
 
@@ -74,6 +92,9 @@
   list-style-type:none;
   li {
     display:block;
+    a {
+      text-decoration: none;
+    }
   }
 }
 
@@ -112,4 +133,16 @@
 %font-smoothing {
   -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+
+
+// No select
+// usage: @extend %no-select;
+%no-select {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }

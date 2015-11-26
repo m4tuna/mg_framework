@@ -1,0 +1,43 @@
+// ==========================================================================
+// Body
+// ==========================================================================
+
+body {
+  font-family:$body-fsz;
+  font-weight: $body-fw;
+  font-size: $body-fsz;
+  color: $body-text-color;
+  background: $body-bg-color;
+  background-image: url($body-bg-image);
+  background-repeat:$body-bg-repeat;
+  background-attachment: $body-bg-attachment;
+  background-position: $body-bg-position;
+  @include bg-size($body-bg-size);
+  @extend %font-smoothing;
+  a {
+    color:$link-color;
+    &:hover {
+      color:$link-hover;
+    }
+  }
+}
+
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  &.img-fluid {
+    width:100%;
+  }
+}
+
+
+@if $dev-mode == true {
+	* { background-color: rgba(255,0,0,.2); }
+	* * { background-color: rgba(0,255,0,.2); }
+	* * * { background-color: rgba(0,0,255,.2); }
+	* * * * { background-color: rgba(255,0,255,.2); }
+	* * * * * { background-color: rgba(0,255,255,.2); }
+	* * * * * * { background-color: rgba(255,255,0,.2); }
+  * * * * * * * { background-color: rgba(255,255,0,.2); }
+}

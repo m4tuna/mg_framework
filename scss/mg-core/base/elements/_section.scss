@@ -1,0 +1,21 @@
+// ==========================================================================
+// Section
+// ==========================================================================
+
+section {
+  font-family:$section-fsz;
+  font-weight: $section-fw;
+  font-size: $section-fsz;
+  color: $section-text-color;
+  background: $section-bg-color;
+  background-image: url($section-bg-image);
+  background-attachment: $section-bg-attachment;
+  background-position: $section-bg-position;
+  background-size:$section-bg-size;
+  a {
+    color:$section-link-color;
+    &:hover {
+      color:$section-link-hover;
+    }
+  }
+}
