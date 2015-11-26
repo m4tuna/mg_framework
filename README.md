@@ -39,15 +39,25 @@ Documentation in progress for the following:
 
 ### mixins
 ### animations
-### helper classes
 
-hide-[device]
+### classes
+
+**class**
+
+**description**
+
+**example usage**
+
+
+**hide-[device]**
+
 hide on this device, show everywhere else.
 ex:
 
 `<div class="hide-desktop">Shows on mobile and tablet only.</div>`
 
-only-[device]
+**only-[device]**
+
 show only on this device. hide everywhere else.
 ex:
 
@@ -55,3 +65,76 @@ ex:
 
 
 Devices include mobile, tablet, desktop. Also, add -inline if the element needs to have display: inline-block; where it is showed, otherwise it’s given display:block;
+### helper classes
+
+**class**
+
+**description**
+
+**example usage**
+
+
+**%clearfix**
+
+Extends the micro clearfix hack. http://nicolasgallagher.com/micro-clearfix-hack/
+
+ex:
+
+```
+.my-class {
+  @extend %clearfix;
+}
+```
+
+
+**%center**
+**%left**
+**%right**
+
+
+Extends text align and float directions.
+
+ex:
+
+```
+.my-class {
+  @extend %left;
+  @extend %float-right;
+}
+```
+
+
+**%list-inline**
+**%list-block**
+**%list-reset**
+
+Extends list reset, inline and block to lists inside of the given element.
+
+```
+.my-class {
+  @extend %list-inline;
+  @extend %list-reset;
+}
+```
+
+
+**%reset**
+
+Extends simple reset, applying 0 margin and padding to the given element.
+
+```
+.my-class {
+  @extend %reset;
+}
+```
+
+**%font-smoothing**
+
+Extends font smoothing settings for iPhones. This is by default applied to the body in mg_core.
+
+```
+.my-class {
+  @extend %font-smoothing;
+}
+```
+
