@@ -40,3 +40,16 @@ Documentation in progress for the following:
 ### mixins
 ### animations
 ### helper classes
+
+
+```
+
+```
+
+```
+only-[device]
+```
+
+show only on this device. hide everywhere else.
+
+Devices include mobile, tablet, desktop. Also, add -inline if the element needs to have display: inline-block; where it is showed, otherwise it’s given display:block;
