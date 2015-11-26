@@ -41,15 +41,17 @@ Documentation in progress for the following:
 ### animations
 ### helper classes
 
+hide-[device]
+hide on this device, show everywhere else.
+ex:
 
-```
+`<div class="hide-desktop">Shows on mobile and tablet only.</div>`
 
-```
-
-```
 only-[device]
-```
-
 show only on this device. hide everywhere else.
+ex:
+
+`<div class="only-desktop">Shows only on desktop.</div>`
+
 
 Devices include mobile, tablet, desktop. Also, add -inline if the element needs to have display: inline-block; where it is showed, otherwise it’s given display:block;
