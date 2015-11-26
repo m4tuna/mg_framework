@@ -13,12 +13,19 @@ body {
   background-attachment: $body-bg-attachment;
   background-position: $body-bg-position;
   @include bg-size($body-bg-size);
-  @extend %font-smoothing;
+  @if $font-smoothing == true {
+    @extend %font-smoothing;
+  }
   a {
     color:$link-color;
     &:hover {
       color:$link-hover;
     }
+  }
+  p {
+    font-family:$body-fsz;
+    font-weight: $body-fw;
+    font-size: $body-fsz;
   }
 }
 

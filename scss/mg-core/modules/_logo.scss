@@ -12,6 +12,7 @@ a.logo {
   background-attachment: $logo-bg-attachment;
   background-position: $logo-bg-position;
   background-size:$logo-bg-size;
+  color:$logo-color;
   @include transition-all($logo-hover-time);
   @if $logo-hover-fade == true {
     &:hover {

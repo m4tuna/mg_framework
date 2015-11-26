@@ -2,9 +2,9 @@
 // Modals
 // ==========================================================================
 
-body.fix-body {
+body.mg-backdrop {
   overflow:hidden;
-  .mg-backdrop {
+  .mg-cloak {
     background:$backdrop;
     position:fixed;
     height:100%;
@@ -21,10 +21,10 @@ body.fix-body {
   margin:0 auto;
   top:4%;
   z-index:999;
-  width:500px;
-  height:auto;
+  width:$modal-width;
+  height:$modal-height;
   .close-btn {
-    color:$mg-white;
+    color:$var-white;
     float:right;
     position:absolute;
     top:5px;

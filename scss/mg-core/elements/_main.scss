@@ -12,6 +12,7 @@ main {
   background-attachment: $main-bg-attachment;
   background-position: $main-bg-position;
   background-size:$main-bg-size;
+  clear:both;
   .row {
     padding: $main-row-padding;
   }
