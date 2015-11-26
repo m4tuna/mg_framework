@@ -10,30 +10,36 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size:$h1-fsz;
+  line-height:$h1-fsz+2;
   color:$h1-color;
 }
 
 h2 {
   font-size:$h2-fsz;
+  line-height:$h2-fsz+2;
   color:$h2-color;
 }
 
 h3 {
   font-size:$h3-fsz;
+  line-height:$h3-fsz+2;
   color:$h3-color;
 }
 
 h4 {
   font-size:$h4-fsz;
+  line-height:$h4-fsz+2;
   color:$h4-color;
 }
 
 h5 {
   font-size:$h5-fsz;
+  line-height:$h5-fsz+2;
   color:$h5-color;
 }
 
 h6 {
   font-size:$h6-fsz;
+  line-height:$h6-fsz+2;
   color:$h6-color;
 }

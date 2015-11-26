@@ -17,6 +17,7 @@ footer {
   background-position: $footer-bg-position;
   background-size:$footer-bg-size;
   text-transform: $footer-tt;
+  text-align:$footer-align;
   @if $footer-list-reset == true {
     @extend %list-reset;
   }
@@ -30,6 +31,7 @@ footer {
     font-family:$footer-font;
     font-size:$footer-fsz;
     line-height: $footer-fsz+2;
+    text-align:$footer-align;
   }
   a {
     color:$footer-link-color;

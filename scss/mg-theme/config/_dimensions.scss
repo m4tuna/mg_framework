@@ -8,19 +8,20 @@ $grid-columns: 12;
 $grid-max-width: 57em; //.wrapper
 
 //-logo
-$logo-width: 290px;
-$logo-height: 53px;
+$logo-width: 110px;
+$logo-height: 62px;
 $logo-max-width: 520px;
-$logo-margin: 11px 0 0;
+$logo-margin: 0;
 
 //-main
-$main-row-padding: 1em;
+$main-row-padding: 0;
 $main-col-padding: 0;
 $wrapper-padding: 0 2em;
 
 //-nav
 $nav-height: auto;
 $nav-padding: 0 0;
+$nav-margin: 15px 0 0;
 $nav-link-padding: 0 0;
 $iframe-top-fix: 7px;
 
@@ -30,12 +31,12 @@ $mobile-nav-padding:0 0 15px;
 
 //-header
 $header-height: 75px;
-$header-col-padding: 10px;
+$header-col-padding: 7px;
 $header-padding: 0 30px;
 
 //-hero
 $hero-height: 420px;
-$hero-padding: 100px 0;
+$hero-padding: 165px 0;
 $hero-mobile-padding: 80px 0;
 
 //-mg-modal
@@ -62,6 +63,9 @@ $social-link-padding: 5px 10px;
 $social-border-radius: 2px;
 $social-extras-padding: 5px 9px;
 $social-margin: 20px 10px 0;
+
+//-buy links
+$buy-margin: 40px auto 0;
 
 //-code
 $code-padding: .25em .5em;

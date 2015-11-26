@@ -3,9 +3,9 @@
 // ==========================================================================
 
 
-.hero {
+#hero {
   width:100%;
-  height:$hero-height;
+  min-height:$hero-height;
   font-family:$hero-fsz;
   font-weight: $hero-fw;
   font-size: $hero-fsz;
@@ -15,7 +15,6 @@
   background-attachment: $hero-bg-attachment;
   background-position: $hero-bg-position;
   background-size:$hero-bg-size;
-  &.row {
-    padding:$hero-padding;
-  }
+  text-align:$hero-align;
+  padding:$hero-padding;
 }

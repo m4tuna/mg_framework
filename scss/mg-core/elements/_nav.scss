@@ -9,6 +9,8 @@ nav {
   background-attachment: $nav-bg-attachment;
   background-position: $nav-bg-position;
   background-size:$nav-bg-size;
+  margin:$nav-margin;
+  float:$nav-float;
   li {
     background-color:$nav-li-bg-color;
     padding:$nav-link-padding;

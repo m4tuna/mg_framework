@@ -6,6 +6,7 @@
 	text-align:center;
 	@extend %list-reset;
 	@extend %list-inline;
+	margin:$buy-margin;
 	a {
 		display:inline-block;
 		height:35px;

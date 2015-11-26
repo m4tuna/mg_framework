@@ -10,12 +10,19 @@ $body-bg-repeat: no-repeat;
 $body-bg-size: cover;
 
 //-logo
-$logo-image: '';
+$logo-image: '../images/logo.png';
 $logo-display: inline-block;
 $logo-bg-attachment: none;
 $logo-bg-position: 0 0;
 $logo-bg-repeat: no-repeat;
 $logo-bg-size: cover;
+
+//-hero
+$hero-bg-image: '../images/hero.jpg';
+$hero-bg-attachment: none;
+$hero-bg-position: 0 0;
+$hero-bg-repeat: no-repeat;
+$hero-bg-size: cover;
 
 //-header
 $header-bg-image: '';
@@ -44,13 +51,6 @@ $article-bg-attachment: none;
 $article-bg-position: 0 0;
 $article-bg-repeat: no-repeat;
 $article-bg-size: cover;
-
-//-hero
-$hero-bg-image: '';
-$hero-bg-attachment: none;
-$hero-bg-position: 0 0;
-$hero-bg-repeat: no-repeat;
-$hero-bg-size: cover;
 
 //-main
 $main-bg-image: '';

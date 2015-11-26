@@ -6,6 +6,7 @@ body {
   font-family:$body-fsz;
   font-weight: $body-fw;
   font-size: $body-fsz;
+  line-height: $body-fsz+2;
   color: $body-text-color;
   background: $body-bg-color;
   background-image: url($body-bg-image);

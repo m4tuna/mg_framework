@@ -12,6 +12,7 @@ section {
   background-attachment: $section-bg-attachment;
   background-position: $section-bg-position;
   background-size:$section-bg-size;
+  clear:both;
   a {
     color:$section-link-color;
     &:hover {

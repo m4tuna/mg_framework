@@ -63,11 +63,11 @@
 [class*='column-'].left {
   text-align: left; }
 
-header, footer, #buy {
+header, footer, #social, #buy {
   list-style-type: none; }
-  header li, footer li, #buy li {
+  header li, footer li, #social li, #buy li {
     display: inline; }
-    header li a, footer li a, #buy li a {
+    header li a, footer li a, #social li a, #buy li a {
       text-decoration: none; }
 
 .btn.block {
@@ -75,9 +75,9 @@ header, footer, #buy {
   clear: both;
   width: 100%; }
 
-header, footer, .social, #buy {
+header, footer, #social, #buy {
   list-style-type: none; }
-  header li a, footer li a, .social li a, #buy li a {
+  header li a, footer li a, #social li a, #buy li a {
     text-decoration: none; }
 
 body {
@@ -307,8 +307,9 @@ body {
   font-family: 14px;
   font-weight: "normal";
   font-size: 14px;
+  line-height: 16px;
   color: #000;
-  background: #efefef;
+  background: #000;
   background-image: url("");
   background-repeat: no-repeat;
   background-attachment: none;
@@ -320,7 +321,7 @@ body {
   body a {
     color: #fff; }
     body a:hover {
-      color: #000; }
+      color: #a6a6a6; }
   body p {
     font-family: 14px;
     font-weight: "normal";
@@ -351,9 +352,9 @@ header {
   header a {
     color: #fff; }
     header a:hover {
-      color: #000; }
+      color: #a6a6a6; }
   header [class*='column-'] {
-    padding: 10px; }
+    padding: 7px; }
 
 header {
   position: fixed;
@@ -368,7 +369,9 @@ nav {
   background-image: url("");
   background-attachment: none;
   background-position: 0 0;
-  background-size: cover; }
+  background-size: cover;
+  margin: 15px 0 0;
+  float: right; }
   nav li {
     background-color: transparent;
     padding: 0 0;
@@ -405,7 +408,7 @@ main {
   background-size: cover;
   clear: both; }
   main .row {
-    padding: 1em; }
+    padding: 0; }
   main [class*='column-'] {
     padding: 0; }
 
@@ -418,11 +421,12 @@ section {
   background-image: url("");
   background-attachment: none;
   background-position: 0 0;
-  background-size: cover; }
+  background-size: cover;
+  clear: both; }
   section a {
     color: #fff; }
     section a:hover {
-      color: #000; }
+      color: #a6a6a6; }
 
 article {
   font-family: 14px;
@@ -437,7 +441,7 @@ article {
   article a {
     color: #fff; }
     article a:hover {
-      color: #000; }
+      color: #a6a6a6; }
 
 code {
   vertical-align: middle;
@@ -458,17 +462,19 @@ footer {
   background-attachment: none;
   background-position: 0 0;
   background-size: cover;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  text-align: center; }
   footer .copy p {
     padding: 30px 0; }
   footer p {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 12px;
-    line-height: 14px; }
+    line-height: 14px;
+    text-align: center; }
   footer a {
     color: #fff; }
     footer a:hover {
-      color: #000; }
+      color: #a6a6a6; }
   footer .wrapper {
     margin: 0 auto; }
   footer [class*='column-'] {
@@ -487,11 +493,12 @@ main {
 
 a.logo {
   display: inline-block;
-  height: 53px;
-  width: 290px;
-  margin: 11px 0 0;
+  height: 62px;
+  width: 110px;
+  margin: 0;
+  float: left;
   max-width: 520px;
-  background-image: url("");
+  background-image: url("../images/logo.png");
   background-attachment: none;
   background-position: 0 0;
   background-size: cover;
@@ -521,42 +528,48 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 45px;
+  line-height: 47px;
   color: #fff; }
 
 h2 {
   font-size: 35px;
+  line-height: 37px;
   color: #fff; }
 
 h3 {
   font-size: 25px;
+  line-height: 27px;
   color: #fff; }
 
 h4 {
   font-size: 20px;
+  line-height: 22px;
   color: #fff; }
 
 h5 {
   font-size: 18px;
+  line-height: 20px;
   color: #fff; }
 
 h6 {
   font-size: 15px;
+  line-height: 17px;
   color: #fff; }
 
-.hero {
+#hero {
   width: 100%;
-  height: 420px;
+  min-height: 420px;
   font-family: 14px;
   font-weight: "normal";
   font-size: 14px;
   color: #fff;
   background: #495B7E;
-  background-image: url("");
+  background-image: url("../images/hero.jpg");
   background-attachment: none;
   background-position: 0 0;
-  background-size: cover; }
-  .hero.row {
-    padding: 100px 0; }
+  background-size: cover;
+  text-align: center;
+  padding: 165px 0; }
 
 body.mg-backdrop {
   overflow: hidden; }
@@ -595,14 +608,14 @@ input[type="text"], select {
 .sidebar {
   display: none; }
 
-.social {
+#social {
   margin: 20px 10px 0;
   font-size: 30px;
   line-height: 32px; }
-  .social iframe {
+  #social iframe {
     position: relative;
     top: 8px; }
-  .social a {
+  #social a {
     background: #fff;
     color: #000;
     padding: 5px 10px;
@@ -612,9 +625,9 @@ input[type="text"], select {
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     transition: all 0.5s ease; }
-    .social a.tw, .social a.yt {
+    #social a.tw, #social a.yt {
       padding: 5px 9px; }
-    .social a:hover {
+    #social a:hover {
       color: #fff; }
 
 table {
@@ -695,7 +708,8 @@ table {
   color: #000; }
 
 #buy {
-  text-align: center; }
+  text-align: center;
+  margin: 40px auto 0; }
   #buy a {
     display: inline-block;
     height: 35px;
@@ -825,6 +839,12 @@ table {
         background: #614126; }
 
 @media only screen and (max-width: 737px) {
+  body {
+    background-position: center; }
+
+  #hero {
+    background-position: center; }
+
   .hide-mobile, .hide-mobile-inline {
     display: none; }
 
@@ -848,7 +868,7 @@ table {
       color: #fff;
       font-size: 20px; }
       .nav a:hover {
-        color: #000; }
+        color: #a6a6a6; }
     .nav li a {
       display: block; }
 
@@ -907,6 +927,12 @@ table {
   footer [class*='column-'] {
     padding: 0; } }
 @media only screen and (min-width: 738px) and (max-width: 1027px) {
+  body {
+    background-position: center; }
+
+  #hero {
+    background-position: center; }
+
   .hide-tablet, .hide-tablet-inline, .only-mobile, .only-desktop {
     display: none; }
 
@@ -927,7 +953,7 @@ table {
       color: #fff;
       font-size: 20px; }
       .nav a:hover {
-        color: #000; }
+        color: #a6a6a6; }
     .nav li a {
       display: block; } }
 @media only screen and (min-width: 30em) and (orientation: portrait) {

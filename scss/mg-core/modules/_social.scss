@@ -2,8 +2,9 @@
 // Social Links
 // ==========================================================================
 
-.social {
+#social {
   @extend %list-reset;
+  @extend %list-inline;
   margin:$social-margin;
   font-size:$social-fsz;
   line-height:$social-fsz+2;
