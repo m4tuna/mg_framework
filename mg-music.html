@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <title>MG 1.0 Music Boilerplate</title>
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/vendor/owl.carousel.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="icon" type="image/png" href="/favicon.png">
   <link rel="shortcut icon" href="/favicon.png">
@@ -25,16 +26,16 @@
         <nav>
           <ul>
             <li><a href="#">item</a></li>
+            <li><a href="#">item</a></li>
+            <li><a href="#">item</a></li>
+            <li><a href="#">item</a></li>
+            <li><a href="#">item</a></li>
           </ul>
         </nav>
       </div>
     </div>
   </header>
-
   <main>
-    <!-- <div id="hero">
-
-    </div> -->
     <div id="buy">
       <ul>
         <li><a href="#" target="_blank" class="buy itunes"></a></li>
@@ -118,6 +119,25 @@
         <li><iframe src="https://embed.spotify.com/follow/1/?uri=spotify:artist:19Fi1Rj7kk8kyiwxpXy3yM&size=basic&theme=dark&show-count=0" width="100" height="25" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe></li>
       </ul>
     </div>
+    <div class="row">
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img src="images/logo.png" alt="" />
+        </div>
+        <div class="item">
+          <img src="images/logo.png" alt="" />
+        </div>
+        <div class="item">
+          <img src="images/logo.png" alt="" />
+        </div>
+        <div class="item">
+          <img src="images/logo.png" alt="" />
+        </div>
+        <div class="item">
+          <img src="images/logo.png" alt="" />
+        </div>
+      </div>
+    </div>
     <div class="column-12">
       <p>
         ©2015 ISLAND RECORDS ALL RIGHTS RESERVED.
@@ -134,11 +154,7 @@
 
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <script>
-    $('.nav-toggle').click(function() {
-      console.log('u workin?');
-      $('nav').slideToggle();
-    });
-  </script>
-  </body>
+  <script src="js/vendor/owl.carousel.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
 </html>

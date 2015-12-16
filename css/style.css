@@ -460,7 +460,7 @@ footer {
   font-size: 12px;
   line-height: 14px;
   color: #fff;
-  background: #000;
+  background: transparent;
   background-image: url("");
   background-attachment: none;
   background-position: 0 0;

@@ -22,6 +22,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/buy-buttons-lg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56750,
+		"inputAbbreviatedPath": "\/images\/buy-buttons-lg.png",
+		"outputAbbreviatedPath": "\/images\/buy-buttons-lg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/buy-buttons.png": {
 		"fileType": 32768,
 		"ignore": 0,
