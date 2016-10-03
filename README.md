@@ -1,3 +1,8 @@
+# important
+This has been depricated. 
+
+Instead use: https://github.com/m4tuna/burger
+
 # mg_framework version 0.9
 
 ### basic setup
